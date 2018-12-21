@@ -1,0 +1,899 @@
+@import "vars"
+
+/*==========  Desktop First  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px)
+	.page-header__cell
+		width: 100%
+	.page-header__top
+		justify-content: space-around
+	.products__cell
+		width: 33.3%
+
+@media only screen and (max-width : 1024px)
+	/**/
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px)
+	.fmenu
+		border-bottom: 1px solid #dfddd8
+		padding-bottom: 40px
+		&__wrap
+			width: 50%
+	.footer
+		&__right
+			padding-top: 40px
+			padding-left: 0
+			width: 100%
+		&__left
+			padding-right: 0
+			width: 100%
+
+
+@media only screen and (max-width : 888px)
+	.products__cell
+		width: 50%
+
+
+
+@media only screen and (max-width : 767px)
+	.top-mob
+		display: block
+	.page-header__bottom-inner
+		justify-content: flex-start
+		flex-direction: column
+		align-items: flex-start
+	.page-header__top
+		display: none
+	.page-header__bottom-right
+		display: flex
+		flex-direction: column
+	.main-nav__list
+		flex-direction: column
+	.page-header__bottom-center
+		margin-top: 20px
+		margin-bottom: 10px
+		width: 100%
+	.page-header__bottom
+		display: none
+		color: #000
+		border: none
+	.page-header
+		padding-right: 20px
+		padding-left: 20px
+		box-shadow: 0 2px 7px rgba(0,0,0,.17)
+	.page-header__bottom-drop
+		display: block
+		position: relative
+	.page-header__bottom--active .link-complex--tel::before,
+	.page-header__bottom--active .link-complex--adress::before,
+	.page-header__bottom--active .dropdown-item--urban::before,
+	.page-header__bottom--active .dropdown-item--mob::before
+		display: none
+	.page-header__bottom--active .link-complex,
+	.page-header__bottom--active .dropdown__item
+		padding-left: 17px
+	.dropdown-hover
+		height: auto
+	.dropdown__wrap--open
+		.dropdown__inner
+			max-height: 1000px
+			visibility: visible
+		.dropdown__toggler::after
+			transform: rotate(-180deg)
+	.slider__content
+		&::after
+			content: ''
+			position: absolute
+			left: 0
+			right: 0
+			top: 0
+			bottom: 0
+			display: block
+			background-color: rgba(255,255,255,.6)
+	.about .slider__content
+		&::after
+			content: none
+
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px)
+	.main-nav__link
+		padding: 9px 9px 9px 0
+		display: block
+	.page-header__bottom--active
+		overflow-y: auto
+		height: auto
+		max-height: calc(100vh - 50px)
+		display: block
+		margin-top: 50px
+		position: fixed
+		left: 0
+		top: 0
+		right: 0
+		background-color: #fff
+		padding: 0 20px 30px 20px
+		box-shadow: 0 1px 4px rgba(0,0,0,.15)
+		z-index: 99
+	.box
+		padding-left: 20px
+		padding-right: 20px
+	.product
+		flex-direction: column
+		align-items: center
+	.footer
+		padding-right: 20px
+		padding-left: 20px
+		&__inner
+			flex-direction: column
+	.product__right
+		margin-left: 0
+	.dropdown__wrap--addres:hover
+		box-shadow: none
+	.dropdown__inner--adress
+			transition: all .3s ease
+	.link-complex
+		cursor: pointer
+	.address__cell:first-child::after
+		display: none
+	.address__cell:first-child
+		padding-right: 8px
+	.address__row
+		display: flex
+		align-items: center
+	.address__name
+		padding-top: 0
+
+
+
+@media only screen and (max-width : 600px)
+	.products__cell
+		width: 100%
+		padding: 0
+		&:last-child
+			.product-item
+				border: none
+	.product-item
+		border: none
+		flex-direction: row
+		justify-content: space-around
+		height: auto
+		margin-bottom: 0
+		border-bottom: 1px solid #d9d9d9
+		border-radius: 0
+		padding: 15px
+	.product-item__description
+		width: calc(100% - 80px)
+		padding-right: 10px
+		padding-left: 10px
+	.product-item__name
+		font-size: 13px
+	.product-item__pic
+		width: 80px
+		margin-bottom: 0
+	.price
+		font-size: 13px
+	.products__inner
+		border: 1px solid #d9d9d9
+		border-radius: 4px
+		margin: 0
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px)
+	.fmenu
+		flex-direction: column
+		border: none
+		padding-bottom: 0
+		&__wrap
+			width: 100%
+	.footer__right
+		padding-top: 30px
+	.fmenu__wrap:first-child
+		padding-right: 0
+		padding-bottom: 14px
+	.fmenu__wrap:last-child
+		padding: 0
+	.footer__right
+		flex-direction: column
+	.address__availability
+		white-space: normal
+	.developer
+		padding-left: 0
+		padding-top: 30px
+		width: 100%
+	.social-media
+		width: 100%
+	.js-noscroll
+		overflow: hidden
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px)
+	/**/
+
+
+/*==========  Mobile First  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px)
+	/**/
+
+
+@media only screen and (min-width : 360px)
+	.schedule__status
+		padding: 1px 14px 22px
+@media only screen and (min-width : 423px)
+	.articles
+		display: flex
+		flex-wrap: wrap
+		margin-left: -10px
+		margin-right: -10px
+	.article
+		width: calc(50% - 20px)
+		margin-left: 10px
+		margin-right: 10px
+
+@media only screen and (min-width : 450px)
+	.location__title-drop
+		width: auto
+	.location .large-menu
+		padding-left: 6px
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px)
+	.stock__content
+		margin-left: -15px
+		margin-right: -15px
+		display: flex
+	.stock__item
+		display: inline-block
+		width: calc(50% - 30px)
+		margin-bottom: 0
+		margin-left: 15px
+		margin-right: 15px
+	.stock__img
+		display: block
+	.filter
+		flex-direction: row
+		align-items: center
+		padding-bottom: 45px
+		&__button
+			width: auto
+		&__controls
+			display: block
+			box-shadow: none
+			width: auto
+			padding: 10px 10px 10px 0
+			position: static
+			opacity: 1
+			overflow: visible
+			z-index: 10
+		&__mobile
+			display: none
+			padding: 5px 30px 5px 10px
+		&__line
+			display: none
+		&__theme
+			margin-bottom: 0
+		&__author
+			margin-top: 0
+	.news .filter__button:last-child::after
+		content: ''
+		position: absolute
+		right: -20px
+		top: 4px
+		width: 1px
+		height: 27px
+		background-color: #dbe3ea
+	.large-menu__drop
+		padding: 5px 30px 5px 10px
+	.preview__link
+		width: 25%
+	.news-all .filter
+		padding-bottom: 30px
+	.services-all__title
+		padding-bottom: 20px
+	.services-all .filter__controls
+		padding: 0
+		column-count: 2
+		max-height: none
+	.services-all .filter
+		padding-bottom: 35px
+	.services-all__search
+		margin-bottom: 30px
+	.filter__author
+		margin-left: 23px
+	.about-main__title
+		margin-bottom: 15px
+	.about-main__text
+		max-width: 810px
+		text-align: center
+		margin: auto
+		font-size: 24px
+	.status-employee .employee__img
+		width: 70%
+	.employee-item
+		&__photo
+			width: 280px
+			height: 280px
+	.employee-main__tabs .filter__button
+		font-size: 20px
+	.filter__button[data-count]::after
+		position: relative
+		top: -1px
+	.сertificates__cell
+		width: 33.333%
+	.layout__title
+		margin-bottom: 40px
+	.employee-info__name-link
+		font-size: 26px
+	.employees .filter__button
+		margin-bottom: 10px
+	.history-slider__info
+		text-align: center
+		font-size: 20px
+	.history-slider__year
+		font-size: 40px
+		line-height: 63px
+	.employees-filter
+		display: flex
+		flex-wrap: wrap
+	.employees-filter__drop
+		padding-right: 35px
+	.employees-filter__clinic
+		margin-top: 0
+	.employees-filter__toggler
+		width: 205px
+	.spec-menu, .clinic-menu
+		right: auto
+		width: 240px
+	.order-main__top
+		text-align: center
+	.order-main .employees-filter
+		margin-right: auto
+		margin-left: auto
+	.steps
+		display: flex
+		width: 100%
+		justify-content: center
+		&__list
+			display: flex
+		&__item
+			margin-right: 25px
+			&:last-child::after
+				display: none
+			&::after
+				content: ''
+				display: block
+				position: absolute
+				background-image: url(../img/arrRight.png)
+				background-repeat: no-repeat
+				background-position: center
+				background-size: cover
+				width: 6px
+				height: 11px
+				right: -15px
+				top: 11px
+	.order-main__clinic-cell
+		padding-left: 14px
+		padding-right: 14px
+	.order-main__clinic
+		align-items: center
+		margin-left: -14px
+		margin-right: -14px
+	.field-text--tel
+		width: 280px
+		margin-left: auto
+		margin-right: auto
+	.order-main__bottom-text
+		text-align: center
+	.order-main .filter__mobile
+		display: block
+		padding-left: 0
+	.order-main .filter__controls
+		overflow: hidden
+		opacity: .0
+		padding: 10px
+		box-shadow: 0 1px 4px rgba(0,0,0,.15)
+		position: absolute
+		z-index: -10
+	.order-main .filter__controls--active
+		opacity: 1
+		z-index: 20
+		max-height: 300px
+		overflow-y: auto
+		overflow-x: hidden
+	.order-main .filter__button
+		width: 100%
+	.order-main__bottom-btn
+		margin-left: auto
+		margin-right: auto
+		display: block
+	.spec-menu__item
+		text-align: left
+
+
+
+@media only screen and (min-width : 525px)
+	.news-all .news__content
+		display: flex
+		flex-wrap: wrap
+		margin-left: -15px
+		margin-right: -15px
+	.news-all .news__cell
+		width: calc(50% - 30px)
+		margin-left: 15px
+		margin-right: 15px
+
+
+@media only screen and (min-width : 560px)
+	.grid
+		flex-direction: row
+		flex-wrap: wrap
+
+@media only screen and (min-width : 600px)
+	.product-item__pic
+		height: 165px
+		width: auto
+		display: flex
+		align-items: center
+		justify-content: center
+	.product-item__description
+		flex: 1 1 auto
+
+@media only screen and (min-width : 615px)
+	.team__cell
+		width: calc(50% - 10px)
+	.user
+		width: auto
+	.user--all
+		width: 100%
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px)
+	.page-header__left,.page-header__right
+		width: 245px
+	.page-header__left,.page-header__right
+		flex-direction: column
+	.page-header__img
+		width: 100%
+		height: 120px
+	.page-header__top
+		height: 182px
+	.page-header__cell--third
+		padding-top: 5px
+		margin-bottom: 5px
+	.page-header__cell--first
+		padding-top: 5px
+	.main-nav__link
+		padding: 16px 8px
+		font-size: 16px
+	.page-header__bottom
+		margin-left: -30px
+		margin-right: -30px
+		display: block
+	.page-header__bottom--fixed .page-header__bottom-inner
+		padding-left: 30px
+		padding-right: 30px
+	.page-header__bottom--fixed .page-header__bottom-inner
+		max-width: 1260px
+		margin-right: auto
+		margin-left: auto
+	.footer__inner
+		flex-direction: column
+		padding-bottom: 40px
+	.page-header__bottom--fixed
+		position: fixed
+		left: 0
+		right: 0
+		top: -56px
+		border-top: none
+		border-bottom: none
+		background-color: #fff
+		overflow: hidden
+		z-index: 10
+		box-shadow: 0 1px 4px rgba(0,0,0,.15)
+	.page-header__bottom--margin
+		top: 0
+		overflow: visible
+	.dropdown-hover--mob
+		display: none
+	.page-header__btn-wrap
+		display: none
+	.dropdown__wrap:hover
+		.dropdown__inner
+			max-height: 1000px
+			visibility: visible
+		.dropdown__toggler::after
+			transform: rotate(-180deg)
+	.dropdown__wrap--addres:hover,.dropdown__wrap--numb:hover
+		box-shadow: 0 2px 7px rgba(0,0,0,.17)
+		.dropdown__toggler::after
+			transform: rotate(-180deg)
+		.dropdown__inner--adress
+			max-height: 1000px
+			visibility: visible
+	.slider__body, .slider__content
+		height: 420px
+	.slider__title
+		font-size: 30px
+	.page__main
+		padding-top: 0
+	.stock__inner, .box, .news__inner, .farm-products__inner, .services__inner
+		padding-left: 30px
+		padding-right: 30px
+	.news__content
+		display: flex
+		flex-wrap: wrap
+		margin-left: -15px
+		margin-right: -15px
+	.news__item
+		width: calc(50% - 30px)
+		margin-left: 15px
+		margin-right: 15px
+	.stock
+		padding-top: 40px
+	.news
+		padding-top: 40px
+	.farm-products
+		padding-top: 40px
+		padding-bottom: 45px
+	.farm-products__top
+		display: flex
+		justify-content: space-between
+		align-items: center
+	.title
+		font-size: 49px
+	.page-header__drop
+		display: none !important
+	.layout--fixed
+		padding-top: 52px
+	.title--type-2
+		font-size: 36px
+	.title--type-3
+		font-size: 28px
+	.news-article__main .layout__title
+		margin-bottom: 25px
+	.news-article__item .news-item__date
+		margin-bottom: 45px
+	.news-article__item .news-item__pic
+		margin-bottom: 45px
+	.news-article__item .news-item__decsription
+		margin-bottom: 30px
+	p, strong
+		margin-top: 20px
+		margin-bottom: 20px
+	.share
+		margin-top: 40px
+	.news-article__layout
+		padding-bottom: 45px
+	.aside__content
+		flex-direction: row
+	.aside__item
+		width: calc(50% - 30px)
+		margin-left: 15px
+		margin-right: 15px
+		margin-bottom: 40px
+	.news-all .news__cell
+		width: calc(33.3333% - 30px)
+	.services-all .filter__controls
+		column-count: 3
+	.services-all__title
+		padding-bottom: 40px
+	.contacts__grid
+		padding-top: 35px
+	.about-main__title
+		margin-bottom: 22px
+	.about-main__inner
+		margin-bottom: 29px
+	.title--size-middle
+		font-size: 28px
+		line-height: 1.35714em
+	.status__inner
+		display: flex
+	.status-employee, .status-vacancy
+		width: 50%
+	.status-employee
+		padding-right: 30px
+	.status-vacancy
+		padding-left: 30px
+	.status__inner
+		padding-top: 40px
+	.status-vacancy__inner
+		margin-left: auto
+	.status-employee .employee__img
+		width: auto
+	.location__address
+		margin-bottom: 35px
+	.location .large-menu__drop
+		font-size: 28px
+	.location .large-menu__drop::after
+		background: url(../img/arr3.png) no-repeat center
+		right: -28px
+		top: 15px
+		width: 18px
+		height: 10px
+	.location .large-menu__box
+		left: auto
+		right: 0
+	.location .large-menu
+		padding-left: 8px
+	.feedback__title
+		margin-bottom: 37px
+	.feedback__btn
+		margin-top: 5px
+	.field-text
+		margin-top: 6px
+		margin-right: 30px
+		width: 250px
+	.form__line
+		display: flex
+		align-items: flex-start
+	.field-text--large
+		flex-grow: 1
+	.review-item
+		display: flex
+		justify-content: space-between
+	.review-item__persons
+		width: 280px
+		flex-shrink: 0
+	.review-item__comment--positive::before,
+	.review-item__comment--negative::before
+		left: 250px
+		top: 6px
+	.employee-item
+		display: flex
+		flex-wrap: nowrap
+		&__photo
+			flex-shrink: 0
+			width: 240px
+			height: 240px
+			margin-right: 40px
+	.schedule__date
+		font-size: 15px
+		padding: 12px 16px
+	.schedule__status
+		height: calc(100% - 45px)
+	.layout
+		padding-top: 38px
+	.our-history
+		padding-top: 40px
+		padding-bottom: 40px
+	.our-history__title
+		padding-bottom: 40px
+	.history-slider__year
+		font-size: 50px
+		line-height: 73px
+	.history-slider__info
+		font-size: 22px
+		line-height: 1.54545em
+	.order-main__title
+		margin-bottom: 40px
+	.order-main .team__grid
+		margin-left: -12px
+		margin-right: -12px
+	form.order-main__top
+		margin-bottom: 55px
+	div.order-main__top
+		margin-bottom: 55px
+	.order-main
+		padding-bottom: 15px
+	.order-main__clinic
+		flex-direction: row
+		flex-wrap: wrap
+		justify-content: center
+	.order-main .field-text
+		width: 33.3333%
+		margin-right: 0
+		padding-left: 5px
+		padding-right: 5px
+	.order-main .form__line
+		margin-left: -5px
+		margin-right: -5px
+	.order-main__bottom-text
+		max-width: 630px
+		margin-left: auto
+		margin-right: auto
+		margin-bottom: 45px
+	.form__line-wrap
+		display: flex
+		width: 100%
+	.form__line--pet
+		display: flex
+		flex-wrap: wrap
+	.order-main__bottom-form
+		max-width: 860px
+		margin-left: auto
+		margin-right: auto
+	.order-main .filter__mobile
+		padding-bottom: 8px
+	.order-main .field-text--small
+		width: 16.6666%
+	.order-main .field-text--tel
+		width: 280px
+		margin-left: auto
+		margin-right: auto
+	.order-main__bottom--third
+		padding-top: 10px
+	.order-main__text
+		margin-bottom: 40px
+	.form__label
+		margin-bottom: 5px
+	.form__add
+		margin-right: 15px
+
+
+@media only screen and (min-width : 853px)
+	.article
+		width: calc(33.33333% - 30px)
+
+
+@media only screen and (min-width : 900px)
+	.сertificates__cell
+		width: 25%
+@media only screen and (min-width : 910px)
+	.team__cell
+		width: calc(33.33333% - 10px)
+	.grid__cell--work
+		width: auto
+
+@media only screen and (min-width : 992px)
+	.footer__inner
+		flex-direction: row
+
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 1024px)
+	.page-header__top
+		height: 197px
+	.main-nav__link
+		padding: 16px
+		font-size: 19px
+	.page-header__bottom--fixed
+		margin-left: -15px
+		margin-right: -15px
+	.page-header__bottom--fixed .dropdown-hover--tel
+		margin-right: 0
+	.page-header__bottom--fixed .main-nav__link
+		font-size: 16px
+		padding: 16px 8px
+	.page-header__bottom--fixed .page-header__bottom-inner
+		justify-content: space-between
+	.page-header__bottom--fixed .bottom-left__img
+		display: block
+	.page-header__bottom--fixed .page-header__bottom-drop
+		display: block
+	.page-header__bottom--fixed .page-header__bottom-right
+		display: block
+	.slider__inner
+		max-width: 920px
+	.slider__body, .slider__content
+		height: 550px
+	.slider__title
+		font-size: 36px
+	.slick-nav--left
+		left: 20px
+		top: 50%
+	.slick-nav--right
+		right: 20px
+		top: 50%
+	.service-item
+		width: calc(50% - 30px)
+	.service-item:nth-last-child(2)
+		border-bottom: none
+	.news__item
+		width: calc(25% - 30px)
+	.services
+		padding-bottom: 60px
+	.stock
+		padding-top: 50px
+		padding-bottom: 60px
+	.news
+		padding-top: 50px
+	.farm-products
+		padding-top: 50px
+	.news__wrapper
+		padding-bottom: 60px
+	.article
+		width: calc(33.33333% - 30px)
+	.news-article__layout
+		flex-direction: row
+	.news-article__main
+		width: 74.3%
+	.aside
+		width: 25.7%
+		padding-top: 22px
+	.aside__item
+		margin-bottom: 30px
+		margin-left: 15px
+		margin-right: 15px
+		width: calc(100% - 30px)
+	.aside__content
+		flex-direction: column
+	.news-all .news__cell
+		width: calc(25% - 30px)
+	.news-all .news__cell--pic
+		width: calc(50% - 30px)
+	.services-all .filter__controls
+		column-count: 4
+	.services-all .service-item
+		width: 100%
+	.services-all .service-item:last-child
+		border-bottom: 1px dotted #c7c7c7
+	.services-all .service-item:nth-last-child(2)
+		border-bottom: 1px dotted #c7c7c7
+	.about-main__inner
+		padding-top: 30px
+	.about-main__title
+		margin-bottom: 65px
+	.about-main__inner
+		margin-bottom: 44px
+	.status__inner
+		padding-top: 80px
+		padding-bottom: 55px
+	.status-employee .employee__img
+		width: 85%
+		max-width: 100%
+	.control-next
+		right: 15px
+	.control-prev
+		right: 55px
+	.status-employee__button
+		margin-top: 25px
+	.schedule__body .slick-nav--left
+		left: auto
+	.layout
+		padding-top: 44px
+	.our-history
+		padding-top: 45px
+		padding-bottom: 150px
+	.our-history__title
+		padding-bottom: 75px
+
+
+@media only screen and (min-width : 1180px)
+	.team__cell
+		width: calc(25% - 10px)
+	.grid__cell--adr
+		width: auto
+		margin-right: auto
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px)
+	.page-header__left,.page-header__right
+		flex-direction: row
+		width: 40%
+	.page-header__cell--third
+		margin-bottom: 0
+	.page-header__cell--first
+		padding-top: 0
+	.page-header__bottom
+		margin-left: 0
+		margin-right: 0
+	.slider__title
+		font-size: 41px
+		line-height: 1.21951em
+
+@media only screen and (min-width : 1230px)
+	.page-header__bottom--fixed .main-nav__link
+		font-size: 18px
+		padding-left: 14px
+		padding-right: 14px
+	.page-header__bottom--fixed .page-header__bottom-inner
+		justify-content: flex-start
+	.page-header__bottom--fixed .page-header__bottom-right
+		margin-left: auto
+	.history-slider__year
+		font-size: 84px
+		line-height: 106px
+		transform: translate3d(0,50px,0)
+	.history-slider__year.slick-current
+		transform: scale(.8)
+	.history-slider__years .slick-list
+		overflow: visible
+
+
+@media only screen and (min-width : 1800px)
+	.slider__body, .slider__content
+		height: 642px
+	.slider__inner
+		max-width: 1260px

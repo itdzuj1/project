@@ -1,0 +1,1824 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+
+	<meta charset="utf-8">
+
+	<title>Title</title>
+	<meta name="description" content="">
+
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+<!-- Отменяет стили для номеров телефона в Edge -->
+	<meta name="format-detection" content="telephone=no">
+
+	<meta property="og:image" content="path/to/image.jpg">
+	<link rel="shortcut icon" href="img/favicon/favicon.ico" type="image/x-icon">
+	<link rel="apple-touch-icon" href="img/favicon/apple-touch-icon.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="img/favicon/apple-touch-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="img/favicon/apple-touch-icon-114x114.png">
+
+	<!-- Chrome, Firefox OS and Opera -->
+	<meta name="theme-color" content="#000">
+	<!-- Windows Phone -->
+	<meta name="msapplication-navbutton-color" content="#000">
+	<!-- iOS Safari -->
+	<meta name="apple-mobile-web-app-status-bar-style" content="#000">
+
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+
+	<link rel="stylesheet" href="css/main.min.css">
+
+</head>
+
+<body>
+
+	<div class="page">
+		<div class="page__content">
+			<header class="page-header">
+				<div class="page-header__top">
+					<div class="page-header__left">
+						<div class="page-header__cell page-header__cell--first">
+							<div class="page-header__phone ">
+								<div class="dropdown dropdown-hover">
+									<div class="dropdown__wrap dropdown__wrap--numb">
+										<div class="link-complex link-complex--tel dropdown__toggler">
+											<span class="link-complex__text">+375 17 388-11-99</span>
+										</div>
+										<div class="dropdown__inner">
+											<ul class="dropdown__menu">
+												<li class="dropdown__item">
+													<div class="dropdown-item dropdown-item--title dropdown-item--urban">Городской</div>
+													<div class="dropdown-item dropdown-item--tel">+375 17 388-11-99</div>
+												</li>
+												<li class="dropdown__item">
+													<div class="dropdown-item dropdown-item--title dropdown-item--mob">Velcom</div>
+													<div class="dropdown-item dropdown-item--tel">+375 44 7-521-521</div>
+												</li>
+												<li class="dropdown__item">
+													<div class="dropdown-item dropdown-item--title dropdown-item--mob">MTC</div>
+													<div class="dropdown-item dropdown-item--tel">+375 29 7-521-521</div>
+												</li>
+												<li class="dropdown__item">
+													<div class="dropdown-item dropdown-item--title dropdown-item--mob">Life</div>
+													<div class="dropdown-item dropdown-item--tel">+375 25 7-521-521</div>
+												</li>
+											</ul>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="page-header__cell page-header__cell--second">
+							<div class="page-header__adress ">
+								<div class="dropdown dropdown-hover">
+									<div class="dropdown__wrap dropdown__wrap--addres">
+										<div class="link-complex link-complex--adress dropdown__toggler">
+											<span class="link-complex__text">Адреса клиник</span>
+										</div>
+										<div class="dropdown__inner dropdown__inner--adress">
+											<ul class="dropdown__menu">
+												<li class="dropdown__item dropdown__item--address">
+													<div class="dropdown-item dropdown-item--street">пр. Независимости, 177</div>
+													<div class="dropdown-item dropdown-item--work">Круглосуточно</div>
+												</li>
+												<li class="dropdown__item dropdown__item--address">
+													<div class="dropdown-item dropdown-item--street">Ул. Сурганова, 29</div>
+													<div class="dropdown-item dropdown-item--work">Режим работы: с 9:00 до 21:00</div>
+													<div class="dropdown-item dropdown-item--work">Среда: перерыв с 11:00 до 14:00</div>
+												</li>
+											</ul>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="page-header__center">
+						<a href="index.html" class="page-header__logo">
+							<img src="img/logo.png" alt="Logo" class="page-header__img">
+						</a>
+					</div>
+					<div class="page-header__right">
+						<div class="page-header__cell page-header__cell--third">
+							<div class="page-header__question">
+								<a href="#" class="link-complex link-complex--question">
+									<span class="link-complex__text">Задать вопрос</span>
+								</a>
+							</div>
+						</div>
+						<div class="page-header__cell">
+							<a href="orderStep1.html" class="page-header__btn btn">Запись на прием</a>
+						</div>
+					</div>
+				</div>
+				<div class="page-header__top-mob top-mob">
+					<div class="top-mob__wrap">
+						<div class="top-mob__logo">
+							<a href="index.html" class="top-mob__pic">
+								<img src="img/logoMin2.png" alt="Logo" class="top-mob__img">
+							</a>
+						</div>
+						<div class="top-mob__icons">
+							<div class="top-mob__tel">
+								<img src="img/icon1.png" alt="Phone" class="top-mob__img">
+							</div>
+							<div class="top-mob__address">
+								<a href="#" class="location">
+									<img src="img/icon2.png" alt="Address" class="location__icon">
+								</a>
+							</div>
+							<div class="top-mob__burger burger">
+								<span class="burger__item burger__item--1"></span>
+								<span class="burger__item burger__item--2"></span>
+								<span class="burger__item burger__item--3"></span>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="page-header__drop">
+					<div class="dropdown__inner mob-version">
+						<ul class="dropdown__menu">
+							<li class="dropdown__item">
+								<div class="dropdown-item dropdown-item--title dropdown-item--urban">Городской</div>
+								<div class="dropdown-item dropdown-item--tel">+375 17 388-11-99</div>
+							</li>
+							<li class="dropdown__item">
+								<div class="dropdown-item dropdown-item--title dropdown-item--mob">Velcom</div>
+								<div class="dropdown-item dropdown-item--tel">+375 44 7-521-521</div>
+							</li>
+							<li class="dropdown__item">
+								<div class="dropdown-item dropdown-item--title dropdown-item--mob">MTC</div>
+								<div class="dropdown-item dropdown-item--tel">+375 29 7-521-521</div>
+							</li>
+							<li class="dropdown__item">
+								<div class="dropdown-item dropdown-item--title dropdown-item--mob">Life</div>
+								<div class="dropdown-item dropdown-item--tel">+375 25 7-521-521</div>
+							</li>
+						</ul>
+					</div>
+				</div>
+				<div class="page-header__bottom">
+					<div class="page-header__bottom-inner">
+						<div class="page-header__bottom-left bottom-left js-scrollTop">
+							<img src="img/logoMin.png" alt="Logomin" class="bottom-left__img">
+						</div>
+						<div class="page-header__bottom-center">
+							<nav class="main-nav">
+								<ul class="main-nav__list">
+									<li class="main-nav__item"><a href="about.html" class="main-nav__link main-nav__link--active">О нас</a></li>
+									<li class="main-nav__item"><a href="employees.html" class="main-nav__link">Наши сотрудники</a></li>
+									<li class="main-nav__item"><a href="services.html" class="main-nav__link">Услуги</a></li>
+									<li class="main-nav__item"><a href="pharmacy_product.html" class="main-nav__link">Аптека</a></li>
+									<li class="main-nav__item"><a href="news.html" class="main-nav__link">Новости</a></li>
+									<li class="main-nav__item"><a href="articles.html" class="main-nav__link">База знаний</a></li>
+									<li class="main-nav__item"><a href="feedback.html" class="main-nav__link">Отзывы</a></li>
+									<li class="main-nav__item"><a href="contacts.html" class="main-nav__link">Контакты</a></li>
+								</ul>
+							</nav>
+						</div>
+						<div class="page-header__bottom-right">
+							<div class="page-header__bottom-drop dropdown dropdown-hover dropdown-hover--tel">
+								<div class="dropdown__wrap dropdown__wrap--numb">
+									<div class="link-complex link-complex--tel dropdown__toggler">
+										<span class="link-complex__text">+375 17 388-11-99</span>
+									</div>
+									<div class="dropdown__inner">
+										<ul class="dropdown__menu">
+											<li class="dropdown__item">
+												<div class="dropdown-item dropdown-item--title dropdown-item--urban">Городской</div>
+												<div class="dropdown-item dropdown-item--tel">+375 17 388-11-99</div>
+											</li>
+											<li class="dropdown__item">
+												<div class="dropdown-item dropdown-item--title dropdown-item--mob">Velcom</div>
+												<div class="dropdown-item dropdown-item--tel">+375 44 7-521-521</div>
+											</li>
+											<li class="dropdown__item">
+												<div class="dropdown-item dropdown-item--title dropdown-item--mob">MTC</div>
+												<div class="dropdown-item dropdown-item--tel">+375 29 7-521-521</div>
+											</li>
+											<li class="dropdown__item">
+												<div class="dropdown-item dropdown-item--title dropdown-item--mob">Life</div>
+												<div class="dropdown-item dropdown-item--tel">+375 25 7-521-521</div>
+											</li>
+										</ul>
+									</div>
+								</div>
+							</div>
+							<div class="page-header__adress dropdown dropdown-hover dropdown-hover--adress dropdown-hover--mob">
+								<div class="dropdown__wrap dropdown__wrap--addres">
+									<div  class="link-complex link-complex--adress dropdown__toggler">
+										<span class="link-complex__text">Адреса клиник</span>
+									</div>
+									<div class="dropdown__inner dropdown__inner--adress">
+										<ul class="dropdown__menu">
+											<li class="dropdown__item dropdown__item--address">
+												<div class="dropdown-item dropdown-item--street">пр. Независимости, 177</div>
+												<div class="dropdown-item dropdown-item--work">Круглосуточно</div>
+											</li>
+											<li class="dropdown__item dropdown__item--address">
+												<div class="dropdown-item dropdown-item--street">Ул. Сурганова, 29</div>
+												<div class="dropdown-item dropdown-item--work">Режим работы: с 9:00 до 21:00</div>
+												<div class="dropdown-item dropdown-item--work">Среда: перерыв с 11:00 до 14:00</div>
+											</li>
+										</ul>
+									</div>
+								</div>
+							</div>
+							<div class="page-header__btn-wrap">
+								<a href="orderStep1.html" class="page-header__btn btn">Запись на прием</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</header>
+			<main class="page__main">
+				<div class="box">
+					<div class="layout employees">
+						<h1 class="layout__title title">
+							Наши сотрудники
+						</h1>
+                        <div class="employees-filter">
+                            <div class="employees-filter__inner employees-filter__specialization" data-label="Специализация">
+                                <div class="employees-filter__toggler">
+                                    <div class="employees-filter__drop js-current js-spec">Специализация<span class="employees-filter__clear"><i class="employees-filter__clear-img"></i></span></div>
+                                </div>
+                                <div class="employees-filter__wrap spec-menu">
+                                    <div class="spec-menu__wrap">
+                                        <div class="spec-menu__item js-checkbox" data-name="Онкология">Онкология</div>
+                                        <div class="spec-menu__item js-checkbox" data-name="Офтальмология">Офтальмология</div>
+                                        <div class="spec-menu__item js-checkbox" data-name="Хирургия">Хирургия</div>
+                                        <div class="spec-menu__item js-checkbox" data-name="Абдоминальная хирургия">Абдоминальная хирургия</div>
+                                        <div class="spec-menu__item js-checkbox" data-name="Дантист">Дантист</div>
+                                        <div class="spec-menu__item js-checkbox" data-name="Криминалист">Криминалист</div>
+                                        <div class="spec-menu__item js-checkbox" data-name="Онкология">Онкология</div>
+                                        <div class="spec-menu__item js-checkbox" data-name="Офтальмология">Офтальмология</div>
+                                        <div class="spec-menu__item js-checkbox" data-name="Хирургия">Хирургия</div>
+                                        <div class="spec-menu__item js-checkbox" data-name="Абдоминальная хирургия">Абдоминальная хирургия</div>
+                                        <div class="spec-menu__item js-checkbox" data-name="Дантист">Дантист</div>
+                                        <div class="spec-menu__item js-checkbox" data-name="Криминалист">Криминалист</div>
+                                    </div>
+                                    <div class="employees-filter__btn-wrap">
+                                        <button class="employees-filter__btn btn btn--small">Применить</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="employees-filter__inner employees-filter__clinic" data-label="Клиника">
+                                <div class="employees-filter__toggler">
+                                    <div class="employees-filter__drop js-current js-clinic">Клиника<span class="employees-filter__clear"><i class="employees-filter__clear-img"></i></span></div>
+                                </div>
+                                <div class="employees-filter__wrap clinic-menu">
+                                    <div class="spec-menu__wrap">
+                                        <div class="spec-menu__item js-checkbox" data-name="пр. Незвисимости, 177">пр. Незвисимости, 177</div>
+                                        <div class="spec-menu__item js-checkbox" data-name="ул. Крастояновой, 2а">ул. Крастояновой, 2а</div>
+                                        <div class="spec-menu__item js-checkbox" data-name="ул. Сурганова, 29">ул. Сурганова, 29</div>
+                                        <div class="spec-menu__item js-checkbox" data-name="ул. Ульяновская, 31">ул. Ульяновская, 31</div>
+                                    </div>
+                                    <div class="employees-filter__btn-wrap">
+                                        <button class="employees-filter__btn btn btn--small">Применить</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="news__filter filter">
+                                <div class="filter__author">
+                                    <div class="filter__inner large-menu">
+                                        <div class="large-menu__toggler">
+                                            <div class="large-menu__drop">Все сотрудники</div>
+                                        </div>
+                                        <div class="large-menu__box">
+                                            <div class="large-menu__box-inner">
+                                                <div class="large-menu__team team">
+                                                    <div class="team__grid">
+                                                        <div class="team__cell">
+                                                            <div class="team__item user" data-filter=".doc2"  data-name="Болматова А.М.">
+                                                                <div class="user__left">
+                                                                    <div class="user__photo">
+                                                                        <img src="img/avatar_1_small.png" alt="photo" class="user__img">
+                                                                    </div>
+                                                                </div>
+                                                                <div class="user__right">
+                                                                    <div class="user__name">Болматова Александра Михайловна</div>
+                                                                    <div class="user__descr">Ветеринарный врач, терапевт, анестезиолог</div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="team__cell">
+                                                            <div class="team__item user" data-filter=".doc3" data-name="Шевяго А.Ю.">
+                                                                <div class="user__left">
+                                                                    <div class="user__photo">
+                                                                        <img src="img/avatar_2_small.png" alt="photo" class="user__img">
+                                                                    </div>
+                                                                </div>
+                                                                <div class="user__right">
+                                                                    <div class="user__name">Шевяго Александра Юрьвена</div>
+                                                                    <div class="user__descr">Ветеринарный врач, терапевт, анестезиолог</div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="team__cell">
+                                                            <div class="team__item user" data-filter=".doc4" data-name="Викингова Е.А.">
+                                                                <div class="user__left">
+                                                                    <div class="user__photo">
+                                                                        <img src="img/avatar_3_small.png" alt="photo" class="user__img">
+                                                                    </div>
+                                                                </div>
+                                                                <div class="user__right">
+                                                                    <div class="user__name">Викингова Еленеа Александровна</div>
+                                                                    <div class="user__descr">Ветеринарный врач, терапевт, анестезиолог</div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="team__cell">
+                                                            <div class="team__item user" data-filter=".doc5" data-name="Марцинкевич Т.Г.">
+                                                                <div class="user__left">
+                                                                    <div class="user__photo">
+                                                                        <img src="img/avatar_4_small.png" alt="photo" class="user__img">
+                                                                    </div>
+                                                                </div>
+                                                                <div class="user__right">
+                                                                    <div class="user__name">Марцинкевич Татьяна Григорьевна</div>
+                                                                    <div class="user__descr">Ветеринарный врач, терапевт, анестезиолог</div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="team__cell">
+                                                            <div class="team__item user" data-filter=".doc6" data-name="Кривицкий О.И.">
+                                                                <div class="user__left">
+                                                                    <div class="user__photo">
+                                                                        <img src="img/avatar_5_small.png" alt="photo" class="user__img">
+                                                                    </div>
+                                                                </div>
+                                                                <div class="user__right">
+                                                                    <div class="user__name">Кривицкий Олег Ибрагимович</div>
+                                                                    <div class="user__descr">Ветеринарный врач, терапевт, анестезиолог</div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="team__cell">
+                                                            <div class="team__item user" data-filter=".doc7" data-name="Иванова А.Е.">
+                                                                <div class="user__left">
+                                                                    <div class="user__photo">
+                                                                        <img src="img/avatar_6_small.png" alt="photo" class="user__img">
+                                                                    </div>
+                                                                </div>
+                                                                <div class="user__right">
+                                                                    <div class="user__name">Иванова Александра Евгеньевна</div>
+                                                                    <div class="user__descr">Ветеринарный врач, терапевт, анестезиолог</div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="team__cell">
+                                                            <div class="team__item user" data-filter=".doc8" data-name="Юдина Н.М.">
+                                                                <div class="user__left">
+                                                                    <div class="user__photo">
+                                                                        <img src="img/avatar_7_small.png" alt="photo" class="user__img">
+                                                                    </div>
+                                                                </div>
+                                                                <div class="user__right">
+                                                                    <div class="user__name">Юдина Наталья Михайловна</div>
+                                                                    <div class="user__descr">Ветеринарный врач, терапевт, анестезиолог</div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="team__cell">
+                                                            <div class="team__item user" data-filter=".doc9" data-name="Карпович А.М.">
+                                                                <div class="user__left">
+                                                                    <div class="user__photo">
+                                                                        <img src="img/avatar_8_small.png" alt="photo" class="user__img">
+                                                                    </div>
+                                                                </div>
+                                                                <div class="user__right">
+                                                                    <div class="user__name">Карпович Алексей Михайловна</div>
+                                                                    <div class="user__descr">Ветеринарный врач, терапевт, анестезиолог</div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="team__cell">
+                                                            <div class="team__item user" data-filter=".doc10" data-name="Толяренок А.М.">
+                                                                <div class="user__left">
+                                                                    <div class="user__photo">
+                                                                        <img src="img/avatar_9_small.png" alt="photo" class="user__img">
+                                                                    </div>
+                                                                </div>
+                                                                <div class="user__right">
+                                                                    <div class="user__name">Толяренок Александра Михайловна</div>
+                                                                    <div class="user__descr">Ветеринарный врач, терапевт, анестезиолог</div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="team__cell">
+                                                            <div class="team__item user" data-filter="doc1" data-name="Болматова А.М.">
+                                                                <div class="user__left">
+                                                                    <div class="user__photo">
+                                                                        <img src="img/avatar_10_small.png" alt="photo" class="user__img">
+                                                                    </div>
+                                                                </div>
+                                                                <div class="user__right">
+                                                                    <div class="user__name">Болматова Александра Михайловна</div>
+                                                                    <div class="user__descr">Ветеринарный врач, терапевт, анестезиолог</div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+						<div class="employee-cell">
+							<div class="employee-item">
+								<div class="employee-item__photo">
+									<img src="img/avatar_1_large.png" alt="photo" class="employee-item__img">
+								</div>
+								<div class="employee-item__info employee-info">
+									<h2 class="employee-info__name"><a href="employee.html" class="employee-info__name-link">Болматова Ольга Михайловна</a></h2>
+									<div class="employee-info__list">
+										<div class="employee-info__item">
+											<span class="employee-info__title">Должность: </span><span class="employee-info__descr">ветеринарный врач.</span>
+										</div>
+										<div class="employee-info__item">
+											<span class="employee-info__title">Образование: </span><span class="employee-info__descr">в 1997 г. окончила Витебскую государственную академию ветеринарной медицины по специальности ветеринарный врач.</span>
+										</div>
+										<div class="employee-info__item">
+											<span class="employee-info__title">Специализация: </span><span class="employee-info__descr">онкология, офтальмология, абдоминальная хирургия.</span>
+										</div>
+									</div>
+									<a href="employee.html" class="employee-info__button btn btn--small">Подробнее</a>
+								</div>
+							</div>
+							<div class="employee-main__tabs tabs">
+								<div class="tabs__filter filter">
+									<div class="filter__theme">
+										<div class="filter__mobile">Запись на прием</div>
+										<div class="filter__controls">
+											<a href="employee.html" type="button" data-name="Запись на прием" class="filter__button filter__button--all filter__button--active">Запись на прием</a>
+											<a href="employee.html" type="button" data-name="Отзывы" data-count="3" class="filter__button">Отзывы</a>
+											<a href="employee.html" type="button" data-name="Вопросы" class="filter__button">Вопросы</a>
+											<a href="employee.html" type="button" data-name="Сертификаты" data-count="8" class="filter__button">Сертификаты</a>
+											<a href="employee.html" type="button" data-name="Публикации" data-count="1" class="filter__button">Публикации</a>
+										</div>
+									</div>
+								</div>
+								<div class="tabs__content">
+									<div class="tabs__content-item js-tabs js-tabs--active">
+										<div class="schedule js-load">
+											<div class="schedule__control"></div>
+											<div class="schedule__body">
+												<div class="schedule__cell">
+													<div class="schedule__date">Сегодня, 16 сен.</div>
+													<div class="schedule__status">
+														<div class="schedule__status-inner content">
+															<div class="schedule__text">ул. Ульяновская, 31</div>
+															<div class="schedule__time"><a href="orderStep3.html" class="schedule__time-link">10:00</a></div>
+															<div class="schedule__time schedule__time--disabled"><a href="orderStep3.html" class="schedule__time-link">10:30</a></div>
+															<div class="schedule__time"><a href="orderStep3.html" class="schedule__time-link">11:00</a></div>
+															<div class="schedule__time"><a href="orderStep3.html" class="schedule__time-link">11:30</a></div>
+															<div class="schedule__time schedule__time--disabled"><a href="orderStep3.html" class="schedule__time-link">12:00</a></div>
+															<div class="schedule__time schedule__time--disabled"><a href="orderStep3.html" class="schedule__time-link">12:30</a></div>
+															<div class="schedule__time"><a href="orderStep3.html" class="schedule__time-link">13:00</a></div>
+															<div class="schedule__time"><a href="orderStep3.html" class="schedule__time-link">13:30</a></div>
+															<div class="schedule__time"><a href="orderStep3.html" class="schedule__time-link">14:00</a></div>
+															<div class="schedule__time schedule__time--disabled"><a href="orderStep3.html" class="schedule__time-link">14:30</a></div>
+															<div class="schedule__time"><a href="orderStep3.html" class="schedule__time-link">14:30</a></div>
+															<div class="schedule__time"><a href="orderStep3.html" class="schedule__time-link">14:30</a></div>
+															<div class="schedule__time"><a href="orderStep3.html" class="schedule__time-link">14:30</a></div>
+															<div class="schedule__time"><a href="orderStep3.html" class="schedule__time-link">14:30</a></div>
+															<div class="schedule__time"><a href="orderStep3.html" class="schedule__time-link">14:30</a></div>
+															<div class="schedule__time"><a href="orderStep3.html" class="schedule__time-link">14:30</a></div>
+															<div class="schedule__time"><a href="orderStep3.html" class="schedule__time-link">14:30</a></div>
+															<div class="schedule__time"><a href="orderStep3.html" class="schedule__time-link">14:30</a></div>
+															<div class="schedule__time"><a href="orderStep3.html" class="schedule__time-link">14:30</a></div>
+															<div class="schedule__time"><a href="orderStep3.html" class="schedule__time-link">14:30</a></div>
+															<div class="schedule__time"><a href="orderStep3.html" class="schedule__time-link">14:30</a></div>
+															<div class="schedule__time"><a href="orderStep3.html" class="schedule__time-link">14:30</a></div>
+															<div class="schedule__time"><a href="orderStep3.html" class="schedule__time-link">14:30</a></div>
+															<div class="schedule__time"><a href="orderStep3.html" class="schedule__time-link">14:30</a></div>
+															<div class="schedule__text schedule__text--more js-shedule">Все расписание</div>
+														</div>
+													</div>
+												</div>
+												<div class="schedule__cell">
+													<div class="schedule__date">17 сен.</div>
+													<div class="schedule__status">
+														<div class="schedule__status-inner content">
+															<div class="schedule__text schedule__text--no-reception">Нет приема</div>
+														</div>
+													</div>
+												</div>
+												<div class="schedule__cell">
+													<div class="schedule__date">18 сен.</div>
+													<div class="schedule__status">
+														<div class="schedule__status-inner content">
+															<div class="schedule__text">ул. Ульяновская, 31</div>
+															<div class="schedule__time schedule__time--disabled"><a href="orderStep3.html" class="schedule__time-link">10:00</a></div>
+															<div class="schedule__time schedule__time--disabled"><a href="orderStep3.html" class="schedule__time-link">10:30</a></div>
+															<div class="schedule__time schedule__time--disabled"><a href="orderStep3.html" class="schedule__time-link">11:00</a></div>
+															<div class="schedule__time schedule__time--disabled"><a href="orderStep3.html" class="schedule__time-link">11:30</a></div>
+															<div class="schedule__time schedule__time--disabled"><a href="orderStep3.html" class="schedule__time-link">12:00</a></div>
+															<div class="schedule__time"><a href="orderStep3.html" class="schedule__time-link">12:30</a></div>
+															<div class="schedule__time"><a href="orderStep3.html" class="schedule__time-link">13:00</a></div>
+															<div class="schedule__time"><a href="orderStep3.html" class="schedule__time-link">13:30</a></div>
+															<div class="schedule__time"><a href="orderStep3.html" class="schedule__time-link">14:00</a></div>
+															<div class="schedule__time"><a href="orderStep3.html" class="schedule__time-link">14:30</a></div>
+                                                            <div class="schedule__text schedule__text--more js-shedule">Все расписание</div>
+														</div>
+													</div>
+												</div>
+												<div class="schedule__cell">
+													<div class="schedule__date">19 сен.</div>
+													<div class="schedule__status">
+														<div class="schedule__status-inner content">
+															<div class="schedule__text schedule__text--no-reception">Нет приема</div>
+														</div>
+													</div>
+												</div>
+												<div class="schedule__cell">
+													<div class="schedule__date">20 сен.</div>
+													<div class="schedule__status">
+														<div class="schedule__status-inner content">
+															<div class="schedule__text">ул. Ульяновская, 31</div>
+															<div class="schedule__time"><a href="orderStep3.html" class="schedule__time-link">10:00</a></div>
+															<div class="schedule__time"><a href="orderStep3.html" class="schedule__time-link">10:30</a></div>
+															<div class="schedule__time"><a href="orderStep3.html" class="schedule__time-link">11:00</a></div>
+															<div class="schedule__time"><a href="orderStep3.html" class="schedule__time-link">11:30</a></div>
+															<div class="schedule__time"><a href="orderStep3.html" class="schedule__time-link">12:00</a></div>
+															<div class="schedule__time schedule__time--disabled"><a href="orderStep3.html" class="schedule__time-link">12:30</a></div>
+															<div class="schedule__time schedule__time--disabled"><a href="orderStep3.html" class="schedule__time-link">13:00</a></div>
+															<div class="schedule__time schedule__time--disabled"><a href="orderStep3.html" class="schedule__time-link">13:30</a></div>
+															<div class="schedule__time schedule__time--disabled"><a href="orderStep3.html" class="schedule__time-link">14:00</a></div>
+															<div class="schedule__time schedule__time--disabled"><a href="orderStep3.html" class="schedule__time-link">14:30</a></div>
+                                                            <div class="schedule__text schedule__text--more js-shedule">Все расписание</div>
+														</div>
+													</div>
+												</div>
+												<div class="schedule__cell">
+													<div class="schedule__date">21 сен.</div>
+													<div class="schedule__status">
+														<div class="schedule__status-inner content">
+															<div class="schedule__text">ул. Ульяновская, 31</div>
+															<div class="schedule__time"><a href="orderStep3.html" class="schedule__time-link">10:00</a></div>
+															<div class="schedule__time"><a href="orderStep3.html" class="schedule__time-link">10:30</a></div>
+															<div class="schedule__time"><a href="orderStep3.html" class="schedule__time-link">11:00</a></div>
+															<div class="schedule__time"><a href="orderStep3.html" class="schedule__time-link">11:30</a></div>
+															<div class="schedule__time"><a href="orderStep3.html" class="schedule__time-link">12:00</a></div>
+															<div class="schedule__time schedule__time--disabled"><a href="orderStep3.html" class="schedule__time-link">12:30</a></div>
+															<div class="schedule__time schedule__time--disabled"><a href="orderStep3.html" class="schedule__time-link">13:00</a></div>
+															<div class="schedule__time schedule__time--disabled"><a href="orderStep3.html" class="schedule__time-link">13:30</a></div>
+															<div class="schedule__time"><a href="orderStep3.html" class="schedule__time-link">14:00</a></div>
+															<div class="schedule__time"><a href="orderStep3.html" class="schedule__time-link">14:30</a></div>
+                                                            <div class="schedule__text schedule__text--more js-shedule">Все расписание</div>
+														</div>
+													</div>
+												</div>
+												<div class="schedule__cell">
+													<div class="schedule__date">22 сен.</div>
+													<div class="schedule__status">
+														<div class="schedule__status-inner content">
+															<div class="schedule__text">ул. Ульяновская, 31</div>
+															<div class="schedule__time"><a href="orderStep3.html" class="schedule__time-link">10:00</a></div>
+															<div class="schedule__time"><a href="orderStep3.html" class="schedule__time-link">10:30</a></div>
+															<div class="schedule__time schedule__time--disabled"><a href="orderStep3.html" class="schedule__time-link">11:00</a></div>
+															<div class="schedule__time"><a href="orderStep3.html" class="schedule__time-link">11:30</a></div>
+															<div class="schedule__time schedule__time--disabled"><a href="orderStep3.html" class="schedule__time-link">12:00</a></div>
+															<div class="schedule__time"><a href="orderStep3.html" class="schedule__time-link">12:30</a></div>
+															<div class="schedule__time"><a href="orderStep3.html" class="schedule__time-link">13:00</a></div>
+															<div class="schedule__time schedule__time--disabled"><a href="orderStep3.html" class="schedule__time-link">13:30</a></div>
+															<div class="schedule__time"><a href="orderStep3.html" class="schedule__time-link">14:00</a></div>
+															<div class="schedule__time schedule__time--disabled"><a href="orderStep3.html" class="schedule__time-link">14:30</a></div>
+                                                            <div class="schedule__text schedule__text--more js-shedule">Все расписание</div>
+														</div>
+													</div>
+												</div>
+												<div class="schedule__cell">
+													<div class="schedule__date">23 сен.</div>
+													<div class="schedule__status">
+														<div class="schedule__status-inner content">
+															<div class="schedule__text">ул. Ульяновская, 31</div>
+															<div class="schedule__time schedule__time--disabled"><a href="orderStep3.html" class="schedule__time-link">10:00</a></div>
+															<div class="schedule__time schedule__time--disabled"><a href="orderStep3.html" class="schedule__time-link">10:30</a></div>
+															<div class="schedule__time schedule__time--disabled"><a href="orderStep3.html" class="schedule__time-link">11:00</a></div>
+															<div class="schedule__time schedule__time--disabled"><a href="orderStep3.html" class="schedule__time-link">11:30</a></div>
+															<div class="schedule__time schedule__time--disabled"><a href="orderStep3.html" class="schedule__time-link">12:00</a></div>
+															<div class="schedule__time"><a href="orderStep3.html" class="schedule__time-link">12:30</a></div>
+															<div class="schedule__time"><a href="orderStep3.html" class="schedule__time-link">13:00</a></div>
+															<div class="schedule__time"><a href="orderStep3.html" class="schedule__time-link">13:30</a></div>
+															<div class="schedule__time"><a href="orderStep3.html" class="schedule__time-link">14:00</a></div>
+															<div class="schedule__time"><a href="orderStep3.html" class="schedule__time-link">14:30</a></div>
+                                                            <div class="schedule__text schedule__text--more js-shedule">Все расписание</div>
+														</div>
+													</div>
+												</div>
+												<div class="schedule__cell">
+													<div class="schedule__date">24 сен.</div>
+													<div class="schedule__status">
+														<div class="schedule__status-inner content">
+															<div class="schedule__text">ул. Ульяновская, 31</div>
+															<div class="schedule__time"><a href="orderStep3.html" class="schedule__time-link">10:00</a></div>
+															<div class="schedule__time"><a href="orderStep3.html" class="schedule__time-link">10:30</a></div>
+															<div class="schedule__time"><a href="orderStep3.html" class="schedule__time-link">11:00</a></div>
+															<div class="schedule__time"><a href="orderStep3.html" class="schedule__time-link">11:30</a></div>
+															<div class="schedule__time"><a href="orderStep3.html" class="schedule__time-link">12:00</a></div>
+															<div class="schedule__time"><a href="orderStep3.html" class="schedule__time-link">12:30</a></div>
+															<div class="schedule__time schedule__time--disabled"><a href="orderStep3.html" class="schedule__time-link">13:00</a></div>
+															<div class="schedule__time schedule__time--disabled"><a href="orderStep3.html" class="schedule__time-link">13:30</a></div>
+															<div class="schedule__time schedule__time--disabled"><a href="orderStep3.html" class="schedule__time-link">14:00</a></div>
+															<div class="schedule__time"><a href="orderStep3.html" class="schedule__time-link">14:30</a></div>
+                                                            <div class="schedule__text schedule__text--more js-shedule">Все расписание</div>
+														</div>
+													</div>
+												</div>
+												<div class="schedule__cell">
+													<div class="schedule__date">25 сен.</div>
+													<div class="schedule__status">
+														<div class="schedule__status-inner content">
+															<div class="schedule__text">ул. Ульяновская, 31</div>
+															<div class="schedule__time"><a href="orderStep3.html" class="schedule__time-link">10:00</a></div>
+															<div class="schedule__time"><a href="orderStep3.html" class="schedule__time-link">10:30</a></div>
+															<div class="schedule__time"><a href="orderStep3.html" class="schedule__time-link">11:00</a></div>
+															<div class="schedule__time"><a href="orderStep3.html" class="schedule__time-link">11:30</a></div>
+															<div class="schedule__time schedule__time--disabled"><a href="orderStep3.html" class="schedule__time-link">12:00</a></div>
+															<div class="schedule__time"><a href="orderStep3.html" class="schedule__time-link">12:30</a></div>
+															<div class="schedule__time schedule__time--disabled"><a href="orderStep3.html" class="schedule__time-link">13:00</a></div>
+															<div class="schedule__time"><a href="orderStep3.html" class="schedule__time-link">13:30</a></div>
+															<div class="schedule__time schedule__time--disabled"><a href="orderStep3.html" class="schedule__time-link">14:00</a></div>
+															<div class="schedule__time"><a href="orderStep3.html" class="schedule__time-link">14:30</a></div>
+                                                            <div class="schedule__text schedule__text--more js-shedule">Все расписание</div>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="tabs__content-item js-tabs">
+										<div class="employee-feedback">
+											<div class="feedback__add">
+												<button class="feedback__button button"><img src="img/plus.png" alt="plus" class="button__icon"><span class="button__text">Добавить отзыв</span></button>
+												<form method="POST"  class="add__form form">
+													<div class="form__line">
+														<div class="field-text">
+															<input type="text" name="firstname" placeholder="Ваше имя" class="field-text__input">
+														</div>
+													</div>
+													<div class="form__line">
+														<div class="field-text ">
+															<input type="email" name="email" placeholder="Email" class="field-text__input">
+														</div>
+														<div class="field-text field-text--large">
+															<textarea placeholder="Текст отзыва" name="review"  cols="50" rows="10" class="field-text__input"></textarea>
+														</div>
+														<div class="feedback__btn btn btn--dark">Отправить</div>
+													</div>
+												</form>
+											</div>
+											<div class="reviews">
+												<div class="review-item">
+													<div class="review-item__persons">
+														<div class="review-item__person person">
+															<div class="person__img-box">
+																<img src="img/NoPersonSmall.png" alt="NoPerson" class="person__img">
+															</div>
+															<div class="person__name-box">
+																<div class="person__name person__name--bold">Светлана Владимировна</div>
+																<time class="time" datetime="2018-11-14">14 Ноября</time>
+															</div>
+														</div>
+														<div class="review-item__subtitle">Отзыв о враче:</div>
+														<a href="#" class="review-item__doctor person">
+															<div class="person__img-box">
+																<img src="img/avatar_1_small.png" alt="NoPerson" class="person__img">
+															</div>
+															<div class="person__name-box">
+																<div class="person__name person__name">Болматова Ольга Михайловна</div>
+															</div>
+														</a>
+													</div>
+													<div class="review-item__content">
+														<div class="review-item__comment review-item__comment--positive">
+															<div class="review-item__text">
+																Я уже писала восторженный отзыв, а теперь конкретно за что.
+																У моей собаки возле соска выросла черная опухоль и все врачи дружно говорили - "меланома" и шансов нет. Жили как под дамокловым мечом. Попали к Болматовой Александре Михайловне - она сразу засомневалась, взяла анализ и, слава Богу, оказалось - папиллома! Вот это специалист-профессионал, и никого из себя не строит. Спасибо ей!
+															</div>
+														</div>
+													</div>
+												</div>
+												<div class="review-item">
+													<div class="review-item__persons">
+														<div class="review-item__person person">
+															<div class="person__img-box">
+																<img src="img/NoPersonSmall.png" alt="NoPerson" class="person__img">
+															</div>
+															<div class="person__name-box">
+																<div class="person__name person__name--bold">Светлана Владимировна</div>
+																<time class="time" datetime="2018-11-14">14 Ноября</time>
+															</div>
+														</div>
+														<div class="review-item__subtitle">Отзыв о враче:</div>
+														<a href="#" class="review-item__doctor person">
+															<div class="person__img-box">
+																<img src="img/avatar_1_small.png" alt="NoPerson" class="person__img">
+															</div>
+															<div class="person__name-box">
+																<div class="person__name">Болматова Ольга Михайловна</div>
+															</div>
+														</a>
+													</div>
+													<div class="review-item__content">
+														<div class="review-item__comment review-item__comment--negative">
+															<div class="review-item__text">
+																10 июня 2017 года я обратилась в ветеринарную клинику "Альфавет" с подобранной с улицы кошкой Анжелиной. Эта кошка была вся в гное и крови, у нее была сломана челюсть во многих местах. Нас приняли в клинике по экстренной помощи. Ольга Александровна Бжезицкая очень внимательно осмотрела погибающую кошку, взяла у нее все анализы, назначила экстренное лечение. Уже на пятый день эта кошечка кушала самостоятельно, набрала вес. 19 июня А.М.Болматовой и А.В.Бородко была сделана уникальная операция на челюсти кошке Анжелине. Благодаря этой операции спасенная с улицы кошка начала кушать так, как кушают здоровенькие животные. С аппетитом и с радостью. Нам было предложено поместить Анжелину в стационар клиники, так как были не очень хорошие анализы и кошечка нуждалась круглосуточном врачебном наблюдении. В стационаре клиники "Альфавет" созданы уникальные, великолепные условия для питомцев. В санаториях не всегда такой комфорт, как в "Альфавет".
+															</div>
+														</div>
+														<div class="review-item__answer answer">
+															<a href="#" class="answer__item person person--type2">
+																<div class="person__img-box">
+																	<img src="img/avatar_1_small.png" alt="NoPerson" class="person__img">
+																</div>
+																<div class="person__name-box">
+																	<div class="person__name">Болматова Ольга Михайловна</div>
+																	<time class="time" datetime="2018-11-14">15 Ноября</time>
+																</div>
+															</a>
+															<div class="review-item__text">Екатерина, спасибо за ваш отзыв. Мы постараемся разобраться в ситуации</div>
+														</div>
+													</div>
+												</div>
+												<div class="review-item">
+													<div class="review-item__persons">
+														<div class="review-item__person person">
+															<div class="person__img-box">
+																<img src="img/NoPersonSmall.png" alt="NoPerson" class="person__img">
+															</div>
+															<div class="person__name-box">
+																<div class="person__name person__name--bold">Светлана Владимировна</div>
+																<time class="time" datetime="2018-11-14">14 Ноября</time>
+															</div>
+														</div>
+														<div class="review-item__subtitle">Отзыв о враче:</div>
+														<a href="#" class="review-item__doctor person">
+															<div class="person__img-box">
+																<img src="img/avatar_1_small.png" alt="NoPerson" class="person__img">
+															</div>
+															<div class="person__name-box">
+																<div class="person__name">Болматова Ольга Михайловна</div>
+															</div>
+														</a>
+													</div>
+													<div class="review-item__content">
+														<div class="review-item__comment review-item__comment--positive">
+															<div class="review-item__text">
+																Я уже писала восторженный отзыв, а теперь конкретно за что.
+																У моей собаки возле соска выросла черная опухоль и все врачи дружно говорили - "меланома" и шансов нет. Жили как под дамокловым мечом. Попали к Болматовой Александре Михайловне - она сразу засомневалась, взяла анализ и, слава Богу, оказалось - папиллома! Вот это специалист-профессионал, и никого из себя не строит. Спасибо ей!
+															</div>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="tabs__content-item js-tabs">
+										<div class="employee-questions">
+											<div class="employee-questions__add feedback__add">
+												<button class="feedback__button button"><img src="img/plus.png" alt="plus" class="button__icon"><span class="button__text">Задать вопрос</span></button>
+												<form method="POST"  class="add__form form">
+													<div class="form__line">
+														<div class="field-text">
+															<input type="text" name="firstname" placeholder="Ваше имя" class="field-text__input">
+														</div>
+													</div>
+													<div class="form__line">
+														<div class="field-text ">
+															<input type="email" name="email" placeholder="Email" class="field-text__input">
+														</div>
+														<div class="field-text field-text--large">
+															<textarea placeholder="Вопрос" name="review"  cols="50" rows="10" class="field-text__input"></textarea>
+														</div>
+														<div class="feedback__btn btn btn--dark">Отправить</div>
+													</div>
+												</form>
+											</div>
+										</div>
+									</div>
+									<div class="tabs__content-item js-tabs">
+										<div class="employee__сertificates сertificates">
+											<div class="сertificates__grid">
+												<div class="сertificates__cell">
+													<a href="img/certificate_1.png" data-fancybox="gallery" class="сertificates__link">
+														<img src="img/certificate_1.png" alt="image" class="сertificates__img">
+													</a>
+												</div>
+												<div class="сertificates__cell">
+													<a href="img/certificate_2.png" data-fancybox="gallery" class="сertificates__link">
+														<img src="img/certificate_2.png" alt="image" class="сertificates__img">
+													</a>
+												</div>
+												<div class="сertificates__cell">
+													<a href="img/certificate_3.png" data-fancybox="gallery" class="сertificates__link">
+														<img src="img/certificate_3.png" alt="image" class="сertificates__img">
+													</a>
+												</div>
+												<div class="сertificates__cell">
+													<a href="img/certificate_4.png" data-fancybox="gallery" class="сertificates__link">
+														<img src="img/certificate_4.png" alt="image" class="сertificates__img">
+													</a>
+												</div>
+												<div class="сertificates__cell">
+													<a href="img/certificate_5.png" data-fancybox="gallery" class="сertificates__link">
+														<img src="img/certificate_5.png" alt="image" class="сertificates__img">
+													</a>
+												</div>
+												<div class="сertificates__cell">
+													<a href="img/certificate_6.png" data-fancybox="gallery" class="сertificates__link">
+														<img src="img/certificate_6.png" alt="image" class="сertificates__img">
+													</a>
+												</div>
+												<div class="сertificates__cell">
+													<a href="img/certificate_7.png" data-fancybox="gallery" class="сertificates__link">
+														<img src="img/certificate_7.png" alt="image" class="сertificates__img">
+													</a>
+												</div>
+												<div class="сertificates__cell">
+													<a href="img/certificate_8_large.png" data-fancybox="gallery" class="сertificates__link">
+														<img src="img/certificate_8_large.png" alt="image" class="сertificates__img">
+													</a>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="tabs__content-item js-tabs">
+										<div class="employee__publications">
+											<div class="news__content articles">
+												<a href="#" class="news__item news-item article">
+													<div class="news-item__pic">
+														<img src="img/article_8.jpg" alt="" class="news-item__img">
+													</div>
+													<div class="news-item__date date">15 июня</div>
+													<div class="news-item__decsription">У нас обновился режим работы на Сурганова 29</div>
+												</a>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="employee-cell">
+							<div class="employee-item">
+								<div class="employee-item__photo">
+									<img src="img/avatar_1_large.png" alt="photo" class="employee-item__img">
+								</div>
+								<div class="employee-item__info employee-info">
+									<h2 class="employee-info__name"><a href="employee.html" class="employee-info__name-link">Болматова Ольга Михайловна</a></h2>
+									<div class="employee-info__list">
+										<div class="employee-info__item">
+											<span class="employee-info__title">Должность: </span><span class="employee-info__descr">ветеринарный врач.</span>
+										</div>
+										<div class="employee-info__item">
+											<span class="employee-info__title">Образование: </span><span class="employee-info__descr">в 1997 г. окончила Витебскую государственную академию ветеринарной медицины по специальности ветеринарный врач.</span>
+										</div>
+										<div class="employee-info__item">
+											<span class="employee-info__title">Специализация: </span><span class="employee-info__descr">онкология, офтальмология, абдоминальная хирургия.</span>
+										</div>
+									</div>
+									<a href="employee.html" class="employee-info__button btn btn--small">Подробнее</a>
+								</div>
+							</div>
+							<div class="employee-main__tabs tabs">
+								<div class="tabs__filter filter">
+									<div class="filter__theme">
+										<div class="filter__mobile">Запись на прием</div>
+										<div class="filter__controls">
+											<a href="employee.html" type="button" data-name="Запись на прием" class="filter__button filter__button--all filter__button--active">Запись на прием</a>
+											<a href="employee.html" type="button" data-name="Отзывы" data-count="3" class="filter__button">Отзывы</a>
+											<a href="employee.html" type="button" data-name="Вопросы" class="filter__button">Вопросы</a>
+											<a href="employee.html" type="button" data-name="Сертификаты" data-count="8" class="filter__button">Сертификаты</a>
+											<a href="employee.html" type="button" data-name="Публикации" data-count="1" class="filter__button">Публикации</a>
+										</div>
+									</div>
+								</div>
+								<div class="tabs__content">
+									<div class="tabs__content-item js-tabs js-tabs--active">
+										<div class="schedule js-load">
+											<div class="schedule__control"></div>
+											<div class="schedule__body">
+												<div class="schedule__cell">
+													<div class="schedule__date">Сегодня, 16 сен.</div>
+													<div class="schedule__status">
+														<div class="schedule__status-inner content">
+															<div class="schedule__text">ул. Ульяновская, 31</div>
+															<div class="schedule__time"><a href="orderStep3.html" class="schedule__time-link">10:00</a></div>
+															<div class="schedule__time schedule__time--disabled"><a href="orderStep3.html" class="schedule__time-link">10:30</a></div>
+															<div class="schedule__time"><a href="orderStep3.html" class="schedule__time-link">11:00</a></div>
+															<div class="schedule__time"><a href="orderStep3.html" class="schedule__time-link">11:30</a></div>
+															<div class="schedule__time schedule__time--disabled"><a href="orderStep3.html" class="schedule__time-link">12:00</a></div>
+															<div class="schedule__time schedule__time--disabled"><a href="orderStep3.html" class="schedule__time-link">12:30</a></div>
+															<div class="schedule__time"><a href="orderStep3.html" class="schedule__time-link">13:00</a></div>
+															<div class="schedule__time"><a href="orderStep3.html" class="schedule__time-link">13:30</a></div>
+															<div class="schedule__time"><a href="orderStep3.html" class="schedule__time-link">14:00</a></div>
+															<div class="schedule__time schedule__time--disabled"><a href="orderStep3.html" class="schedule__time-link">14:30</a></div>
+															<div class="schedule__time"><a href="orderStep3.html" class="schedule__time-link">14:30</a></div>
+															<div class="schedule__time"><a href="orderStep3.html" class="schedule__time-link">14:30</a></div>
+															<div class="schedule__time"><a href="orderStep3.html" class="schedule__time-link">14:30</a></div>
+															<div class="schedule__time"><a href="orderStep3.html" class="schedule__time-link">14:30</a></div>
+															<div class="schedule__time"><a href="orderStep3.html" class="schedule__time-link">14:30</a></div>
+															<div class="schedule__time"><a href="orderStep3.html" class="schedule__time-link">14:30</a></div>
+															<div class="schedule__time"><a href="orderStep3.html" class="schedule__time-link">14:30</a></div>
+															<div class="schedule__time"><a href="orderStep3.html" class="schedule__time-link">14:30</a></div>
+															<div class="schedule__time"><a href="orderStep3.html" class="schedule__time-link">14:30</a></div>
+															<div class="schedule__time"><a href="orderStep3.html" class="schedule__time-link">14:30</a></div>
+															<div class="schedule__time"><a href="orderStep3.html" class="schedule__time-link">14:30</a></div>
+															<div class="schedule__time"><a href="orderStep3.html" class="schedule__time-link">14:30</a></div>
+															<div class="schedule__time"><a href="orderStep3.html" class="schedule__time-link">14:30</a></div>
+															<div class="schedule__time"><a href="orderStep3.html" class="schedule__time-link">14:30</a></div>
+															<div class="schedule__text schedule__text--more js-shedule">Все расписание</div>
+														</div>
+													</div>
+												</div>
+												<div class="schedule__cell">
+													<div class="schedule__date">17 сен.</div>
+													<div class="schedule__status">
+														<div class="schedule__status-inner content">
+															<div class="schedule__text schedule__text--no-reception">Нет приема</div>
+														</div>
+													</div>
+												</div>
+												<div class="schedule__cell">
+													<div class="schedule__date">18 сен.</div>
+													<div class="schedule__status">
+														<div class="schedule__status-inner content">
+															<div class="schedule__text">ул. Ульяновская, 31</div>
+															<div class="schedule__time schedule__time--disabled"><a href="orderStep3.html" class="schedule__time-link">10:00</a></div>
+															<div class="schedule__time schedule__time--disabled"><a href="orderStep3.html" class="schedule__time-link">10:30</a></div>
+															<div class="schedule__time schedule__time--disabled"><a href="orderStep3.html" class="schedule__time-link">11:00</a></div>
+															<div class="schedule__time schedule__time--disabled"><a href="orderStep3.html" class="schedule__time-link">11:30</a></div>
+															<div class="schedule__time schedule__time--disabled"><a href="orderStep3.html" class="schedule__time-link">12:00</a></div>
+															<div class="schedule__time"><a href="orderStep3.html" class="schedule__time-link">12:30</a></div>
+															<div class="schedule__time"><a href="orderStep3.html" class="schedule__time-link">13:00</a></div>
+															<div class="schedule__time"><a href="orderStep3.html" class="schedule__time-link">13:30</a></div>
+															<div class="schedule__time"><a href="orderStep3.html" class="schedule__time-link">14:00</a></div>
+															<div class="schedule__time"><a href="orderStep3.html" class="schedule__time-link">14:30</a></div>
+                                                            <div class="schedule__text schedule__text--more js-shedule">Все расписание</div>
+														</div>
+													</div>
+												</div>
+												<div class="schedule__cell">
+													<div class="schedule__date">19 сен.</div>
+													<div class="schedule__status">
+														<div class="schedule__status-inner content">
+															<div class="schedule__text schedule__text--no-reception">Нет приема</div>
+														</div>
+													</div>
+												</div>
+												<div class="schedule__cell">
+													<div class="schedule__date">20 сен.</div>
+													<div class="schedule__status">
+														<div class="schedule__status-inner content">
+															<div class="schedule__text">ул. Ульяновская, 31</div>
+															<div class="schedule__time"><a href="orderStep3.html" class="schedule__time-link">10:00</a></div>
+															<div class="schedule__time"><a href="orderStep3.html" class="schedule__time-link">10:30</a></div>
+															<div class="schedule__time"><a href="orderStep3.html" class="schedule__time-link">11:00</a></div>
+															<div class="schedule__time"><a href="orderStep3.html" class="schedule__time-link">11:30</a></div>
+															<div class="schedule__time"><a href="orderStep3.html" class="schedule__time-link">12:00</a></div>
+															<div class="schedule__time schedule__time--disabled"><a href="orderStep3.html" class="schedule__time-link">12:30</a></div>
+															<div class="schedule__time schedule__time--disabled"><a href="orderStep3.html" class="schedule__time-link">13:00</a></div>
+															<div class="schedule__time schedule__time--disabled"><a href="orderStep3.html" class="schedule__time-link">13:30</a></div>
+															<div class="schedule__time schedule__time--disabled"><a href="orderStep3.html" class="schedule__time-link">14:00</a></div>
+															<div class="schedule__time schedule__time--disabled"><a href="orderStep3.html" class="schedule__time-link">14:30</a></div>
+                                                            <div class="schedule__text schedule__text--more js-shedule">Все расписание</div>
+														</div>
+													</div>
+												</div>
+												<div class="schedule__cell">
+													<div class="schedule__date">21 сен.</div>
+													<div class="schedule__status">
+														<div class="schedule__status-inner content">
+															<div class="schedule__text">ул. Ульяновская, 31</div>
+															<div class="schedule__time"><a href="orderStep3.html" class="schedule__time-link">10:00</a></div>
+															<div class="schedule__time"><a href="orderStep3.html" class="schedule__time-link">10:30</a></div>
+															<div class="schedule__time"><a href="orderStep3.html" class="schedule__time-link">11:00</a></div>
+															<div class="schedule__time"><a href="orderStep3.html" class="schedule__time-link">11:30</a></div>
+															<div class="schedule__time"><a href="orderStep3.html" class="schedule__time-link">12:00</a></div>
+															<div class="schedule__time schedule__time--disabled"><a href="orderStep3.html" class="schedule__time-link">12:30</a></div>
+															<div class="schedule__time schedule__time--disabled"><a href="orderStep3.html" class="schedule__time-link">13:00</a></div>
+															<div class="schedule__time schedule__time--disabled"><a href="orderStep3.html" class="schedule__time-link">13:30</a></div>
+															<div class="schedule__time"><a href="orderStep3.html" class="schedule__time-link">14:00</a></div>
+															<div class="schedule__time"><a href="orderStep3.html" class="schedule__time-link">14:30</a></div>
+                                                            <div class="schedule__text schedule__text--more js-shedule">Все расписание</div>
+														</div>
+													</div>
+												</div>
+												<div class="schedule__cell">
+													<div class="schedule__date">22 сен.</div>
+													<div class="schedule__status">
+														<div class="schedule__status-inner content">
+															<div class="schedule__text">ул. Ульяновская, 31</div>
+															<div class="schedule__time"><a href="orderStep3.html" class="schedule__time-link">10:00</a></div>
+															<div class="schedule__time"><a href="orderStep3.html" class="schedule__time-link">10:30</a></div>
+															<div class="schedule__time schedule__time--disabled"><a href="orderStep3.html" class="schedule__time-link">11:00</a></div>
+															<div class="schedule__time"><a href="orderStep3.html" class="schedule__time-link">11:30</a></div>
+															<div class="schedule__time schedule__time--disabled"><a href="orderStep3.html" class="schedule__time-link">12:00</a></div>
+															<div class="schedule__time"><a href="orderStep3.html" class="schedule__time-link">12:30</a></div>
+															<div class="schedule__time"><a href="orderStep3.html" class="schedule__time-link">13:00</a></div>
+															<div class="schedule__time schedule__time--disabled"><a href="orderStep3.html" class="schedule__time-link">13:30</a></div>
+															<div class="schedule__time"><a href="orderStep3.html" class="schedule__time-link">14:00</a></div>
+															<div class="schedule__time schedule__time--disabled"><a href="orderStep3.html" class="schedule__time-link">14:30</a></div>
+                                                            <div class="schedule__text schedule__text--more js-shedule">Все расписание</div>
+														</div>
+													</div>
+												</div>
+												<div class="schedule__cell">
+													<div class="schedule__date">23 сен.</div>
+													<div class="schedule__status">
+														<div class="schedule__status-inner content">
+															<div class="schedule__text">ул. Ульяновская, 31</div>
+															<div class="schedule__time schedule__time--disabled"><a href="orderStep3.html" class="schedule__time-link">10:00</a></div>
+															<div class="schedule__time schedule__time--disabled"><a href="orderStep3.html" class="schedule__time-link">10:30</a></div>
+															<div class="schedule__time schedule__time--disabled"><a href="orderStep3.html" class="schedule__time-link">11:00</a></div>
+															<div class="schedule__time schedule__time--disabled"><a href="orderStep3.html" class="schedule__time-link">11:30</a></div>
+															<div class="schedule__time schedule__time--disabled"><a href="orderStep3.html" class="schedule__time-link">12:00</a></div>
+															<div class="schedule__time"><a href="orderStep3.html" class="schedule__time-link">12:30</a></div>
+															<div class="schedule__time"><a href="orderStep3.html" class="schedule__time-link">13:00</a></div>
+															<div class="schedule__time"><a href="orderStep3.html" class="schedule__time-link">13:30</a></div>
+															<div class="schedule__time"><a href="orderStep3.html" class="schedule__time-link">14:00</a></div>
+															<div class="schedule__time"><a href="orderStep3.html" class="schedule__time-link">14:30</a></div>
+                                                            <div class="schedule__text schedule__text--more js-shedule">Все расписание</div>
+														</div>
+													</div>
+												</div>
+												<div class="schedule__cell">
+													<div class="schedule__date">24 сен.</div>
+													<div class="schedule__status">
+														<div class="schedule__status-inner content">
+															<div class="schedule__text">ул. Ульяновская, 31</div>
+															<div class="schedule__time"><a href="orderStep3.html" class="schedule__time-link">10:00</a></div>
+															<div class="schedule__time"><a href="orderStep3.html" class="schedule__time-link">10:30</a></div>
+															<div class="schedule__time"><a href="orderStep3.html" class="schedule__time-link">11:00</a></div>
+															<div class="schedule__time"><a href="orderStep3.html" class="schedule__time-link">11:30</a></div>
+															<div class="schedule__time"><a href="orderStep3.html" class="schedule__time-link">12:00</a></div>
+															<div class="schedule__time"><a href="orderStep3.html" class="schedule__time-link">12:30</a></div>
+															<div class="schedule__time schedule__time--disabled"><a href="orderStep3.html" class="schedule__time-link">13:00</a></div>
+															<div class="schedule__time schedule__time--disabled"><a href="orderStep3.html" class="schedule__time-link">13:30</a></div>
+															<div class="schedule__time schedule__time--disabled"><a href="orderStep3.html" class="schedule__time-link">14:00</a></div>
+															<div class="schedule__time"><a href="orderStep3.html" class="schedule__time-link">14:30</a></div>
+                                                            <div class="schedule__text schedule__text--more js-shedule">Все расписание</div>
+														</div>
+													</div>
+												</div>
+												<div class="schedule__cell">
+													<div class="schedule__date">25 сен.</div>
+													<div class="schedule__status">
+														<div class="schedule__status-inner content">
+															<div class="schedule__text">ул. Ульяновская, 31</div>
+															<div class="schedule__time"><a href="orderStep3.html" class="schedule__time-link">10:00</a></div>
+															<div class="schedule__time"><a href="orderStep3.html" class="schedule__time-link">10:30</a></div>
+															<div class="schedule__time"><a href="orderStep3.html" class="schedule__time-link">11:00</a></div>
+															<div class="schedule__time"><a href="orderStep3.html" class="schedule__time-link">11:30</a></div>
+															<div class="schedule__time schedule__time--disabled"><a href="orderStep3.html" class="schedule__time-link">12:00</a></div>
+															<div class="schedule__time"><a href="orderStep3.html" class="schedule__time-link">12:30</a></div>
+															<div class="schedule__time schedule__time--disabled"><a href="orderStep3.html" class="schedule__time-link">13:00</a></div>
+															<div class="schedule__time"><a href="orderStep3.html" class="schedule__time-link">13:30</a></div>
+															<div class="schedule__time schedule__time--disabled"><a href="orderStep3.html" class="schedule__time-link">14:00</a></div>
+															<div class="schedule__time"><a href="orderStep3.html" class="schedule__time-link">14:30</a></div>
+                                                            <div class="schedule__text schedule__text--more js-shedule">Все расписание</div>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="tabs__content-item js-tabs">
+										<div class="employee-feedback">
+											<div class="feedback__add">
+												<button class="feedback__button button"><img src="img/plus.png" alt="plus" class="button__icon"><span class="button__text">Добавить отзыв</span></button>
+												<form method="POST"  class="add__form form">
+													<div class="form__line">
+														<div class="field-text">
+															<input type="text" name="firstname" placeholder="Ваше имя" class="field-text__input">
+														</div>
+													</div>
+													<div class="form__line">
+														<div class="field-text ">
+															<input type="email" name="email" placeholder="Email" class="field-text__input">
+														</div>
+														<div class="field-text field-text--large">
+															<textarea placeholder="Текст отзыва" name="review"  cols="50" rows="10" class="field-text__input"></textarea>
+														</div>
+														<div class="feedback__btn btn btn--dark">Отправить</div>
+													</div>
+												</form>
+											</div>
+											<div class="reviews">
+												<div class="review-item">
+													<div class="review-item__persons">
+														<div class="review-item__person person">
+															<div class="person__img-box">
+																<img src="img/NoPersonSmall.png" alt="NoPerson" class="person__img">
+															</div>
+															<div class="person__name-box">
+																<div class="person__name person__name--bold">Светлана Владимировна</div>
+																<time class="time" datetime="2018-11-14">14 Ноября</time>
+															</div>
+														</div>
+														<div class="review-item__subtitle">Отзыв о враче:</div>
+														<a href="#" class="review-item__doctor person">
+															<div class="person__img-box">
+																<img src="img/avatar_1_small.png" alt="NoPerson" class="person__img">
+															</div>
+															<div class="person__name-box">
+																<div class="person__name person__name">Болматова Ольга Михайловна</div>
+															</div>
+														</a>
+													</div>
+													<div class="review-item__content">
+														<div class="review-item__comment review-item__comment--positive">
+															<div class="review-item__text">
+																Я уже писала восторженный отзыв, а теперь конкретно за что.
+																У моей собаки возле соска выросла черная опухоль и все врачи дружно говорили - "меланома" и шансов нет. Жили как под дамокловым мечом. Попали к Болматовой Александре Михайловне - она сразу засомневалась, взяла анализ и, слава Богу, оказалось - папиллома! Вот это специалист-профессионал, и никого из себя не строит. Спасибо ей!
+															</div>
+														</div>
+													</div>
+												</div>
+												<div class="review-item">
+													<div class="review-item__persons">
+														<div class="review-item__person person">
+															<div class="person__img-box">
+																<img src="img/NoPersonSmall.png" alt="NoPerson" class="person__img">
+															</div>
+															<div class="person__name-box">
+																<div class="person__name person__name--bold">Светлана Владимировна</div>
+																<time class="time" datetime="2018-11-14">14 Ноября</time>
+															</div>
+														</div>
+														<div class="review-item__subtitle">Отзыв о враче:</div>
+														<a href="#" class="review-item__doctor person">
+															<div class="person__img-box">
+																<img src="img/avatar_1_small.png" alt="NoPerson" class="person__img">
+															</div>
+															<div class="person__name-box">
+																<div class="person__name">Болматова Ольга Михайловна</div>
+															</div>
+														</a>
+													</div>
+													<div class="review-item__content">
+														<div class="review-item__comment review-item__comment--negative">
+															<div class="review-item__text">
+																10 июня 2017 года я обратилась в ветеринарную клинику "Альфавет" с подобранной с улицы кошкой Анжелиной. Эта кошка была вся в гное и крови, у нее была сломана челюсть во многих местах. Нас приняли в клинике по экстренной помощи. Ольга Александровна Бжезицкая очень внимательно осмотрела погибающую кошку, взяла у нее все анализы, назначила экстренное лечение. Уже на пятый день эта кошечка кушала самостоятельно, набрала вес. 19 июня А.М.Болматовой и А.В.Бородко была сделана уникальная операция на челюсти кошке Анжелине. Благодаря этой операции спасенная с улицы кошка начала кушать так, как кушают здоровенькие животные. С аппетитом и с радостью. Нам было предложено поместить Анжелину в стационар клиники, так как были не очень хорошие анализы и кошечка нуждалась круглосуточном врачебном наблюдении. В стационаре клиники "Альфавет" созданы уникальные, великолепные условия для питомцев. В санаториях не всегда такой комфорт, как в "Альфавет".
+															</div>
+														</div>
+														<div class="review-item__answer answer">
+															<a href="#" class="answer__item person person--type2">
+																<div class="person__img-box">
+																	<img src="img/avatar_1_small.png" alt="NoPerson" class="person__img">
+																</div>
+																<div class="person__name-box">
+																	<div class="person__name">Болматова Ольга Михайловна</div>
+																	<time class="time" datetime="2018-11-14">15 Ноября</time>
+																</div>
+															</a>
+															<div class="review-item__text">Екатерина, спасибо за ваш отзыв. Мы постараемся разобраться в ситуации</div>
+														</div>
+													</div>
+												</div>
+												<div class="review-item">
+													<div class="review-item__persons">
+														<div class="review-item__person person">
+															<div class="person__img-box">
+																<img src="img/NoPersonSmall.png" alt="NoPerson" class="person__img">
+															</div>
+															<div class="person__name-box">
+																<div class="person__name person__name--bold">Светлана Владимировна</div>
+																<time class="time" datetime="2018-11-14">14 Ноября</time>
+															</div>
+														</div>
+														<div class="review-item__subtitle">Отзыв о враче:</div>
+														<a href="#" class="review-item__doctor person">
+															<div class="person__img-box">
+																<img src="img/avatar_1_small.png" alt="NoPerson" class="person__img">
+															</div>
+															<div class="person__name-box">
+																<div class="person__name">Болматова Ольга Михайловна</div>
+															</div>
+														</a>
+													</div>
+													<div class="review-item__content">
+														<div class="review-item__comment review-item__comment--positive">
+															<div class="review-item__text">
+																Я уже писала восторженный отзыв, а теперь конкретно за что.
+																У моей собаки возле соска выросла черная опухоль и все врачи дружно говорили - "меланома" и шансов нет. Жили как под дамокловым мечом. Попали к Болматовой Александре Михайловне - она сразу засомневалась, взяла анализ и, слава Богу, оказалось - папиллома! Вот это специалист-профессионал, и никого из себя не строит. Спасибо ей!
+															</div>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="tabs__content-item js-tabs">
+										<div class="employee-questions">
+											<div class="employee-questions__add feedback__add">
+												<button class="feedback__button button"><img src="img/plus.png" alt="plus" class="button__icon"><span class="button__text">Задать вопрос</span></button>
+												<form method="POST"  class="add__form form">
+													<div class="form__line">
+														<div class="field-text">
+															<input type="text" name="firstname" placeholder="Ваше имя" class="field-text__input">
+														</div>
+													</div>
+													<div class="form__line">
+														<div class="field-text ">
+															<input type="email" name="email" placeholder="Email" class="field-text__input">
+														</div>
+														<div class="field-text field-text--large">
+															<textarea placeholder="Вопрос" name="review" cols="50" rows="10" class="field-text__input"></textarea>
+														</div>
+														<div class="feedback__btn btn btn--dark">Отправить</div>
+													</div>
+												</form>
+											</div>
+										</div>
+									</div>
+									<div class="tabs__content-item js-tabs">
+										<div class="employee__сertificates сertificates">
+											<div class="сertificates__grid">
+												<div class="сertificates__cell">
+													<a href="img/certificate_1.png" data-fancybox="gallery" class="сertificates__link">
+														<img src="img/certificate_1.png" alt="image" class="сertificates__img">
+													</a>
+												</div>
+												<div class="сertificates__cell">
+													<a href="img/certificate_2.png" data-fancybox="gallery" class="сertificates__link">
+														<img src="img/certificate_2.png" alt="image" class="сertificates__img">
+													</a>
+												</div>
+												<div class="сertificates__cell">
+													<a href="img/certificate_3.png" data-fancybox="gallery" class="сertificates__link">
+														<img src="img/certificate_3.png" alt="image" class="сertificates__img">
+													</a>
+												</div>
+												<div class="сertificates__cell">
+													<a href="img/certificate_4.png" data-fancybox="gallery" class="сertificates__link">
+														<img src="img/certificate_4.png" alt="image" class="сertificates__img">
+													</a>
+												</div>
+												<div class="сertificates__cell">
+													<a href="img/certificate_5.png" data-fancybox="gallery" class="сertificates__link">
+														<img src="img/certificate_5.png" alt="image" class="сertificates__img">
+													</a>
+												</div>
+												<div class="сertificates__cell">
+													<a href="img/certificate_6.png" data-fancybox="gallery" class="сertificates__link">
+														<img src="img/certificate_6.png" alt="image" class="сertificates__img">
+													</a>
+												</div>
+												<div class="сertificates__cell">
+													<a href="img/certificate_7.png" data-fancybox="gallery" class="сertificates__link">
+														<img src="img/certificate_7.png" alt="image" class="сertificates__img">
+													</a>
+												</div>
+												<div class="сertificates__cell">
+													<a href="img/certificate_8_large.png" data-fancybox="gallery" class="сertificates__link">
+														<img src="img/certificate_8_large.png" alt="image" class="сertificates__img">
+													</a>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="tabs__content-item js-tabs">
+										<div class="employee__publications">
+											<div class="news__content articles">
+												<a href="#" class="news__item news-item article">
+													<div class="news-item__pic">
+														<img src="img/article_8.jpg" alt="" class="news-item__img">
+													</div>
+													<div class="news-item__date date">15 июня</div>
+													<div class="news-item__decsription">У нас обновился режим работы на Сурганова 29</div>
+												</a>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="employee-cell">
+							<div class="employee-item">
+								<div class="employee-item__photo">
+									<img src="img/avatar_1_large.png" alt="photo" class="employee-item__img">
+								</div>
+								<div class="employee-item__info employee-info">
+									<h2 class="employee-info__name"><a href="employee.html" class="employee-info__name-link">Болматова Ольга Михайловна</a></h2>
+									<div class="employee-info__list">
+										<div class="employee-info__item">
+											<span class="employee-info__title">Должность: </span><span class="employee-info__descr">ветеринарный врач.</span>
+										</div>
+										<div class="employee-info__item">
+											<span class="employee-info__title">Образование: </span><span class="employee-info__descr">в 1997 г. окончила Витебскую государственную академию ветеринарной медицины по специальности ветеринарный врач.</span>
+										</div>
+										<div class="employee-info__item">
+											<span class="employee-info__title">Специализация: </span><span class="employee-info__descr">онкология, офтальмология, абдоминальная хирургия.</span>
+										</div>
+									</div>
+									<a href="employee.html" class="employee-info__button btn btn--small">Подробнее</a>
+								</div>
+							</div>
+							<div class="employee-main__tabs tabs">
+								<div class="tabs__filter filter">
+									<div class="filter__theme">
+										<div class="filter__mobile">Запись на прием</div>
+										<div class="filter__controls">
+											<a href="employee.html" type="button" data-name="Запись на прием" class="filter__button filter__button--all filter__button--active">Запись на прием</a>
+											<a href="employee.html" type="button" data-name="Отзывы" class="filter__button">Отзывы</a>
+											<a href="employee.html" type="button" data-name="Вопросы" class="filter__button">Вопросы</a>
+											<a href="employee.html" type="button" data-name="Сертификаты" class="filter__button">Сертификаты</a>
+											<a href="employee.html" type="button" data-name="Публикации" class="filter__button">Публикации</a>
+										</div>
+									</div>
+								</div>
+								<div class="tabs__content">
+									<div class="tabs__content-item js-tabs js-tabs--active">
+										<div class="schedule js-load">
+											<div class="schedule__control"></div>
+											<div class="schedule__body">
+												<div class="schedule__cell">
+													<div class="schedule__date">Сегодня, 16 сен.</div>
+													<div class="schedule__status">
+														<div class="schedule__status-inner content">
+															<div class="schedule__text">ул. Ульяновская, 31</div>
+															<div class="schedule__time"><a href="orderStep3.html" class="schedule__time-link">10:00</a></div>
+															<div class="schedule__time schedule__time--disabled"><a href="orderStep3.html" class="schedule__time-link">10:30</a></div>
+															<div class="schedule__time"><a href="orderStep3.html" class="schedule__time-link">11:00</a></div>
+															<div class="schedule__time"><a href="orderStep3.html" class="schedule__time-link">11:30</a></div>
+															<div class="schedule__time schedule__time--disabled"><a href="orderStep3.html" class="schedule__time-link">12:00</a></div>
+															<div class="schedule__time schedule__time--disabled"><a href="orderStep3.html" class="schedule__time-link">12:30</a></div>
+															<div class="schedule__time"><a href="orderStep3.html" class="schedule__time-link">13:00</a></div>
+															<div class="schedule__time"><a href="orderStep3.html" class="schedule__time-link">13:30</a></div>
+															<div class="schedule__time"><a href="orderStep3.html" class="schedule__time-link">14:00</a></div>
+															<div class="schedule__time schedule__time--disabled"><a href="orderStep3.html" class="schedule__time-link">14:30</a></div>
+															<div class="schedule__time"><a href="orderStep3.html" class="schedule__time-link">14:30</a></div>
+															<div class="schedule__time"><a href="orderStep3.html" class="schedule__time-link">14:30</a></div>
+															<div class="schedule__time"><a href="orderStep3.html" class="schedule__time-link">14:30</a></div>
+															<div class="schedule__time"><a href="orderStep3.html" class="schedule__time-link">14:30</a></div>
+															<div class="schedule__time"><a href="orderStep3.html" class="schedule__time-link">14:30</a></div>
+															<div class="schedule__time"><a href="orderStep3.html" class="schedule__time-link">14:30</a></div>
+															<div class="schedule__time"><a href="orderStep3.html" class="schedule__time-link">14:30</a></div>
+															<div class="schedule__time"><a href="orderStep3.html" class="schedule__time-link">14:30</a></div>
+															<div class="schedule__time"><a href="orderStep3.html" class="schedule__time-link">14:30</a></div>
+															<div class="schedule__time"><a href="orderStep3.html" class="schedule__time-link">14:30</a></div>
+															<div class="schedule__time"><a href="orderStep3.html" class="schedule__time-link">14:30</a></div>
+															<div class="schedule__time"><a href="orderStep3.html" class="schedule__time-link">14:30</a></div>
+															<div class="schedule__time"><a href="orderStep3.html" class="schedule__time-link">14:30</a></div>
+															<div class="schedule__time"><a href="orderStep3.html" class="schedule__time-link">14:30</a></div>
+															<div class="schedule__text schedule__text--more js-shedule">Все расписание</div>
+														</div>
+													</div>
+												</div>
+												<div class="schedule__cell">
+													<div class="schedule__date">17 сен.</div>
+													<div class="schedule__status">
+														<div class="schedule__status-inner content">
+															<div class="schedule__text schedule__text--no-reception">Нет приема</div>
+														</div>
+													</div>
+												</div>
+												<div class="schedule__cell">
+													<div class="schedule__date">18 сен.</div>
+													<div class="schedule__status">
+														<div class="schedule__status-inner content">
+															<div class="schedule__text">ул. Ульяновская, 31</div>
+															<div class="schedule__time schedule__time--disabled"><a href="orderStep3.html" class="schedule__time-link">10:00</a></div>
+															<div class="schedule__time schedule__time--disabled"><a href="orderStep3.html" class="schedule__time-link">10:30</a></div>
+															<div class="schedule__time schedule__time--disabled"><a href="orderStep3.html" class="schedule__time-link">11:00</a></div>
+															<div class="schedule__time schedule__time--disabled"><a href="orderStep3.html" class="schedule__time-link">11:30</a></div>
+															<div class="schedule__time schedule__time--disabled"><a href="orderStep3.html" class="schedule__time-link">12:00</a></div>
+															<div class="schedule__time"><a href="orderStep3.html" class="schedule__time-link">12:30</a></div>
+															<div class="schedule__time"><a href="orderStep3.html" class="schedule__time-link">13:00</a></div>
+															<div class="schedule__time"><a href="orderStep3.html" class="schedule__time-link">13:30</a></div>
+															<div class="schedule__time"><a href="orderStep3.html" class="schedule__time-link">14:00</a></div>
+															<div class="schedule__time"><a href="orderStep3.html" class="schedule__time-link">14:30</a></div>
+                                                            <div class="schedule__text schedule__text--more js-shedule">Все расписание</div>
+														</div>
+													</div>
+												</div>
+												<div class="schedule__cell">
+													<div class="schedule__date">19 сен.</div>
+													<div class="schedule__status">
+														<div class="schedule__status-inner content">
+															<div class="schedule__text schedule__text--no-reception">Нет приема</div>
+														</div>
+													</div>
+												</div>
+												<div class="schedule__cell">
+													<div class="schedule__date">20 сен.</div>
+													<div class="schedule__status">
+														<div class="schedule__status-inner content">
+															<div class="schedule__text">ул. Ульяновская, 31</div>
+															<div class="schedule__time"><a href="orderStep3.html" class="schedule__time-link">10:00</a></div>
+															<div class="schedule__time"><a href="orderStep3.html" class="schedule__time-link">10:30</a></div>
+															<div class="schedule__time"><a href="orderStep3.html" class="schedule__time-link">11:00</a></div>
+															<div class="schedule__time"><a href="orderStep3.html" class="schedule__time-link">11:30</a></div>
+															<div class="schedule__time"><a href="orderStep3.html" class="schedule__time-link">12:00</a></div>
+															<div class="schedule__time schedule__time--disabled"><a href="orderStep3.html" class="schedule__time-link">12:30</a></div>
+															<div class="schedule__time schedule__time--disabled"><a href="orderStep3.html" class="schedule__time-link">13:00</a></div>
+															<div class="schedule__time schedule__time--disabled"><a href="orderStep3.html" class="schedule__time-link">13:30</a></div>
+															<div class="schedule__time schedule__time--disabled"><a href="orderStep3.html" class="schedule__time-link">14:00</a></div>
+															<div class="schedule__time schedule__time--disabled"><a href="orderStep3.html" class="schedule__time-link">14:30</a></div>
+                                                            <div class="schedule__text schedule__text--more js-shedule">Все расписание</div>
+														</div>
+													</div>
+												</div>
+												<div class="schedule__cell">
+													<div class="schedule__date">21 сен.</div>
+													<div class="schedule__status">
+														<div class="schedule__status-inner content">
+															<div class="schedule__text">ул. Ульяновская, 31</div>
+															<div class="schedule__time"><a href="orderStep3.html" class="schedule__time-link">10:00</a></div>
+															<div class="schedule__time"><a href="orderStep3.html" class="schedule__time-link">10:30</a></div>
+															<div class="schedule__time"><a href="orderStep3.html" class="schedule__time-link">11:00</a></div>
+															<div class="schedule__time"><a href="orderStep3.html" class="schedule__time-link">11:30</a></div>
+															<div class="schedule__time"><a href="orderStep3.html" class="schedule__time-link">12:00</a></div>
+															<div class="schedule__time schedule__time--disabled"><a href="orderStep3.html" class="schedule__time-link">12:30</a></div>
+															<div class="schedule__time schedule__time--disabled"><a href="orderStep3.html" class="schedule__time-link">13:00</a></div>
+															<div class="schedule__time schedule__time--disabled"><a href="orderStep3.html" class="schedule__time-link">13:30</a></div>
+															<div class="schedule__time"><a href="orderStep3.html" class="schedule__time-link">14:00</a></div>
+															<div class="schedule__time"><a href="orderStep3.html" class="schedule__time-link">14:30</a></div>
+                                                            <div class="schedule__text schedule__text--more js-shedule">Все расписание</div>
+														</div>
+													</div>
+												</div>
+												<div class="schedule__cell">
+													<div class="schedule__date">22 сен.</div>
+													<div class="schedule__status">
+														<div class="schedule__status-inner content">
+															<div class="schedule__text">ул. Ульяновская, 31</div>
+															<div class="schedule__time"><a href="orderStep3.html" class="schedule__time-link">10:00</a></div>
+															<div class="schedule__time"><a href="orderStep3.html" class="schedule__time-link">10:30</a></div>
+															<div class="schedule__time schedule__time--disabled"><a href="orderStep3.html" class="schedule__time-link">11:00</a></div>
+															<div class="schedule__time"><a href="orderStep3.html" class="schedule__time-link">11:30</a></div>
+															<div class="schedule__time schedule__time--disabled"><a href="orderStep3.html" class="schedule__time-link">12:00</a></div>
+															<div class="schedule__time"><a href="orderStep3.html" class="schedule__time-link">12:30</a></div>
+															<div class="schedule__time"><a href="orderStep3.html" class="schedule__time-link">13:00</a></div>
+															<div class="schedule__time schedule__time--disabled"><a href="orderStep3.html" class="schedule__time-link">13:30</a></div>
+															<div class="schedule__time"><a href="orderStep3.html" class="schedule__time-link">14:00</a></div>
+															<div class="schedule__time schedule__time--disabled"><a href="orderStep3.html" class="schedule__time-link">14:30</a></div>
+                                                            <div class="schedule__text schedule__text--more js-shedule">Все расписание</div>
+														</div>
+													</div>
+												</div>
+												<div class="schedule__cell">
+													<div class="schedule__date">23 сен.</div>
+													<div class="schedule__status">
+														<div class="schedule__status-inner content">
+															<div class="schedule__text">ул. Ульяновская, 31</div>
+															<div class="schedule__time schedule__time--disabled"><a href="orderStep3.html" class="schedule__time-link">10:00</a></div>
+															<div class="schedule__time schedule__time--disabled"><a href="orderStep3.html" class="schedule__time-link">10:30</a></div>
+															<div class="schedule__time schedule__time--disabled"><a href="orderStep3.html" class="schedule__time-link">11:00</a></div>
+															<div class="schedule__time schedule__time--disabled"><a href="orderStep3.html" class="schedule__time-link">11:30</a></div>
+															<div class="schedule__time schedule__time--disabled"><a href="orderStep3.html" class="schedule__time-link">12:00</a></div>
+															<div class="schedule__time"><a href="orderStep3.html" class="schedule__time-link">12:30</a></div>
+															<div class="schedule__time"><a href="orderStep3.html" class="schedule__time-link">13:00</a></div>
+															<div class="schedule__time"><a href="orderStep3.html" class="schedule__time-link">13:30</a></div>
+															<div class="schedule__time"><a href="orderStep3.html" class="schedule__time-link">14:00</a></div>
+															<div class="schedule__time"><a href="orderStep3.html" class="schedule__time-link">14:30</a></div>
+                                                            <div class="schedule__text schedule__text--more js-shedule">Все расписание</div>
+														</div>
+													</div>
+												</div>
+												<div class="schedule__cell">
+													<div class="schedule__date">24 сен.</div>
+													<div class="schedule__status">
+														<div class="schedule__status-inner content">
+															<div class="schedule__text">ул. Ульяновская, 31</div>
+															<div class="schedule__time"><a href="orderStep3.html" class="schedule__time-link">10:00</a></div>
+															<div class="schedule__time"><a href="orderStep3.html" class="schedule__time-link">10:30</a></div>
+															<div class="schedule__time"><a href="orderStep3.html" class="schedule__time-link">11:00</a></div>
+															<div class="schedule__time"><a href="orderStep3.html" class="schedule__time-link">11:30</a></div>
+															<div class="schedule__time"><a href="orderStep3.html" class="schedule__time-link">12:00</a></div>
+															<div class="schedule__time"><a href="orderStep3.html" class="schedule__time-link">12:30</a></div>
+															<div class="schedule__time schedule__time--disabled"><a href="orderStep3.html" class="schedule__time-link">13:00</a></div>
+															<div class="schedule__time schedule__time--disabled"><a href="orderStep3.html" class="schedule__time-link">13:30</a></div>
+															<div class="schedule__time schedule__time--disabled"><a href="orderStep3.html" class="schedule__time-link">14:00</a></div>
+															<div class="schedule__time"><a href="orderStep3.html" class="schedule__time-link">14:30</a></div>
+                                                            <div class="schedule__text schedule__text--more js-shedule">Все расписание</div>
+														</div>
+													</div>
+												</div>
+												<div class="schedule__cell">
+													<div class="schedule__date">25 сен.</div>
+													<div class="schedule__status">
+														<div class="schedule__status-inner content">
+															<div class="schedule__text">ул. Ульяновская, 31</div>
+															<div class="schedule__time"><a href="orderStep3.html" class="schedule__time-link">10:00</a></div>
+															<div class="schedule__time"><a href="orderStep3.html" class="schedule__time-link">10:30</a></div>
+															<div class="schedule__time"><a href="orderStep3.html" class="schedule__time-link">11:00</a></div>
+															<div class="schedule__time"><a href="orderStep3.html" class="schedule__time-link">11:30</a></div>
+															<div class="schedule__time schedule__time--disabled"><a href="orderStep3.html" class="schedule__time-link">12:00</a></div>
+															<div class="schedule__time"><a href="orderStep3.html" class="schedule__time-link">12:30</a></div>
+															<div class="schedule__time schedule__time--disabled"><a href="orderStep3.html" class="schedule__time-link">13:00</a></div>
+															<div class="schedule__time"><a href="orderStep3.html" class="schedule__time-link">13:30</a></div>
+															<div class="schedule__time schedule__time--disabled"><a href="orderStep3.html" class="schedule__time-link">14:00</a></div>
+															<div class="schedule__time"><a href="orderStep3.html" class="schedule__time-link">14:30</a></div>
+                                                            <div class="schedule__text schedule__text--more js-shedule">Все расписание</div>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="tabs__content-item js-tabs">
+										<div class="employee-feedback">
+											<div class="feedback__add">
+												<button class="feedback__button button"><img src="img/plus.png" alt="plus" class="button__icon"><span class="button__text">Добавить отзыв</span></button>
+												<form method="POST"  class="add__form form">
+													<div class="form__line">
+														<div class="field-text">
+															<input type="text" name="firstname" placeholder="Ваше имя" class="field-text__input">
+														</div>
+													</div>
+													<div class="form__line">
+														<div class="field-text ">
+															<input type="email" name="email" placeholder="Email" class="field-text__input">
+														</div>
+														<div class="field-text field-text--large">
+															<textarea placeholder="Текст отзыва" name="review"  cols="50" rows="10" class="field-text__input"></textarea>
+														</div>
+														<div class="feedback__btn btn btn--dark">Отправить</div>
+													</div>
+												</form>
+											</div>
+											<div class="reviews">
+												<div class="review-item">
+													<div class="review-item__persons">
+														<div class="review-item__person person">
+															<div class="person__img-box">
+																<img src="img/NoPersonSmall.png" alt="NoPerson" class="person__img">
+															</div>
+															<div class="person__name-box">
+																<div class="person__name person__name--bold">Светлана Владимировна</div>
+																<time class="time" datetime="2018-11-14">14 Ноября</time>
+															</div>
+														</div>
+														<div class="review-item__subtitle">Отзыв о враче:</div>
+														<a href="#" class="review-item__doctor person">
+															<div class="person__img-box">
+																<img src="img/avatar_1_small.png" alt="NoPerson" class="person__img">
+															</div>
+															<div class="person__name-box">
+																<div class="person__name person__name">Болматова Ольга Михайловна</div>
+															</div>
+														</a>
+													</div>
+													<div class="review-item__content">
+														<div class="review-item__comment review-item__comment--positive">
+															<div class="review-item__text">
+																Я уже писала восторженный отзыв, а теперь конкретно за что.
+																У моей собаки возле соска выросла черная опухоль и все врачи дружно говорили - "меланома" и шансов нет. Жили как под дамокловым мечом. Попали к Болматовой Александре Михайловне - она сразу засомневалась, взяла анализ и, слава Богу, оказалось - папиллома! Вот это специалист-профессионал, и никого из себя не строит. Спасибо ей!
+															</div>
+														</div>
+													</div>
+												</div>
+												<div class="review-item">
+													<div class="review-item__persons">
+														<div class="review-item__person person">
+															<div class="person__img-box">
+																<img src="img/NoPersonSmall.png" alt="NoPerson" class="person__img">
+															</div>
+															<div class="person__name-box">
+																<div class="person__name person__name--bold">Светлана Владимировна</div>
+																<time class="time" datetime="2018-11-14">14 Ноября</time>
+															</div>
+														</div>
+														<div class="review-item__subtitle">Отзыв о враче:</div>
+														<a href="#" class="review-item__doctor person">
+															<div class="person__img-box">
+																<img src="img/avatar_1_small.png" alt="NoPerson" class="person__img">
+															</div>
+															<div class="person__name-box">
+																<div class="person__name">Болматова Ольга Михайловна</div>
+															</div>
+														</a>
+													</div>
+													<div class="review-item__content">
+														<div class="review-item__comment review-item__comment--negative">
+															<div class="review-item__text">
+																10 июня 2017 года я обратилась в ветеринарную клинику "Альфавет" с подобранной с улицы кошкой Анжелиной. Эта кошка была вся в гное и крови, у нее была сломана челюсть во многих местах. Нас приняли в клинике по экстренной помощи. Ольга Александровна Бжезицкая очень внимательно осмотрела погибающую кошку, взяла у нее все анализы, назначила экстренное лечение. Уже на пятый день эта кошечка кушала самостоятельно, набрала вес. 19 июня А.М.Болматовой и А.В.Бородко была сделана уникальная операция на челюсти кошке Анжелине. Благодаря этой операции спасенная с улицы кошка начала кушать так, как кушают здоровенькие животные. С аппетитом и с радостью. Нам было предложено поместить Анжелину в стационар клиники, так как были не очень хорошие анализы и кошечка нуждалась круглосуточном врачебном наблюдении. В стационаре клиники "Альфавет" созданы уникальные, великолепные условия для питомцев. В санаториях не всегда такой комфорт, как в "Альфавет".
+															</div>
+														</div>
+														<div class="review-item__answer answer">
+															<a href="#" class="answer__item person person--type2">
+																<div class="person__img-box">
+																	<img src="img/avatar_1_small.png" alt="NoPerson" class="person__img">
+																</div>
+																<div class="person__name-box">
+																	<div class="person__name">Болматова Ольга Михайловна</div>
+																	<time class="time" datetime="2018-11-14">15 Ноября</time>
+																</div>
+															</a>
+															<div class="review-item__text">Екатерина, спасибо за ваш отзыв. Мы постараемся разобраться в ситуации</div>
+														</div>
+													</div>
+												</div>
+												<div class="review-item">
+													<div class="review-item__persons">
+														<div class="review-item__person person">
+															<div class="person__img-box">
+																<img src="img/NoPersonSmall.png" alt="NoPerson" class="person__img">
+															</div>
+															<div class="person__name-box">
+																<div class="person__name person__name--bold">Светлана Владимировна</div>
+																<time class="time" datetime="2018-11-14">14 Ноября</time>
+															</div>
+														</div>
+														<div class="review-item__subtitle">Отзыв о враче:</div>
+														<a href="#" class="review-item__doctor person">
+															<div class="person__img-box">
+																<img src="img/avatar_1_small.png" alt="NoPerson" class="person__img">
+															</div>
+															<div class="person__name-box">
+																<div class="person__name">Болматова Ольга Михайловна</div>
+															</div>
+														</a>
+													</div>
+													<div class="review-item__content">
+														<div class="review-item__comment review-item__comment--positive">
+															<div class="review-item__text">
+																Я уже писала восторженный отзыв, а теперь конкретно за что.
+																У моей собаки возле соска выросла черная опухоль и все врачи дружно говорили - "меланома" и шансов нет. Жили как под дамокловым мечом. Попали к Болматовой Александре Михайловне - она сразу засомневалась, взяла анализ и, слава Богу, оказалось - папиллома! Вот это специалист-профессионал, и никого из себя не строит. Спасибо ей!
+															</div>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="tabs__content-item js-tabs">
+										<div class="employee-questions">
+											<div class="employee-questions__add feedback__add">
+												<button class="feedback__button button"><img src="img/plus.png" alt="plus" class="button__icon"><span class="button__text">Задать вопрос</span></button>
+												<form method="POST"  class="add__form form">
+													<div class="form__line">
+														<div class="field-text">
+															<input type="text" name="firstname" placeholder="Ваше имя" class="field-text__input">
+														</div>
+													</div>
+													<div class="form__line">
+														<div class="field-text ">
+															<input type="email" name="email" placeholder="Email" class="field-text__input">
+														</div>
+														<div class="field-text field-text--large">
+															<textarea placeholder="Вопрос" name="review" cols="50" rows="10" class="field-text__input"></textarea>
+														</div>
+														<div class="feedback__btn btn btn--dark">Отправить</div>
+													</div>
+												</form>
+											</div>
+										</div>
+									</div>
+									<div class="tabs__content-item js-tabs">
+										<div class="employee__сertificates сertificates">
+											<div class="сertificates__grid">
+												<div class="сertificates__cell">
+													<a href="img/certificate_1.png" data-fancybox="gallery" class="сertificates__link">
+														<img src="img/certificate_1.png" alt="image" class="сertificates__img">
+													</a>
+												</div>
+												<div class="сertificates__cell">
+													<a href="img/certificate_2.png" data-fancybox="gallery" class="сertificates__link">
+														<img src="img/certificate_2.png" alt="image" class="сertificates__img">
+													</a>
+												</div>
+												<div class="сertificates__cell">
+													<a href="img/certificate_3.png" data-fancybox="gallery" class="сertificates__link">
+														<img src="img/certificate_3.png" alt="image" class="сertificates__img">
+													</a>
+												</div>
+												<div class="сertificates__cell">
+													<a href="img/certificate_4.png" data-fancybox="gallery" class="сertificates__link">
+														<img src="img/certificate_4.png" alt="image" class="сertificates__img">
+													</a>
+												</div>
+												<div class="сertificates__cell">
+													<a href="img/certificate_5.png" data-fancybox="gallery" class="сertificates__link">
+														<img src="img/certificate_5.png" alt="image" class="сertificates__img">
+													</a>
+												</div>
+												<div class="сertificates__cell">
+													<a href="img/certificate_6.png" data-fancybox="gallery" class="сertificates__link">
+														<img src="img/certificate_6.png" alt="image" class="сertificates__img">
+													</a>
+												</div>
+												<div class="сertificates__cell">
+													<a href="img/certificate_7.png" data-fancybox="gallery" class="сertificates__link">
+														<img src="img/certificate_7.png" alt="image" class="сertificates__img">
+													</a>
+												</div>
+												<div class="сertificates__cell">
+													<a href="img/certificate_8_large.png" data-fancybox="gallery" class="сertificates__link">
+														<img src="img/certificate_8_large.png" alt="image" class="сertificates__img">
+													</a>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="tabs__content-item js-tabs">
+										<div class="employee__publications">
+											<div class="news__content articles">
+												<a href="#" class="news__item news-item article">
+													<div class="news-item__pic">
+														<img src="img/article_8.jpg" alt="" class="news-item__img">
+													</div>
+													<div class="news-item__date date">15 июня</div>
+													<div class="news-item__decsription">У нас обновился режим работы на Сурганова 29</div>
+												</a>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="employees__pagination pagination">
+							<div class="pagination__inner">
+								<div class="pagination__numbers">
+									<div class="pagination__number pagination__number--active"><a href="#" class="pagination__link">1</a></div>
+									<div class="pagination__number"><a href="#" class="pagination__link">2</a></div>
+									<div class="pagination__number"><a href="#" class="pagination__link">3</a></div>
+									<div class="pagination__number"><a href="#" class="pagination__link">4</a></div>
+								</div>
+								<div class="pagination__arrows">
+									<div class="pagination__arrow pagination__arrow--left"></div>
+									<div class="pagination__arrow pagination__arrow--right pagination__arrow--active"></div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</main>
+		</div>
+		<div class="page__footer">
+			<div class="footer">
+				<div class="footer__inner">
+					<div class="footer__left">
+						<div class="footer__menu fmenu">
+							<div class="fmenu__wrap">
+								<ul class="fmenu__list">
+									<li class="fmenu__item"><a href="about.html" class="fmenu__link">О нас</a></li>
+									<li class="fmenu__item"><a href="employees.html" class="fmenu__link">Наши сотрудники</a></li>
+									<li class="fmenu__item"><a href="services.html" class="fmenu__link">Услуги</a></li>
+									<li class="fmenu__item"><a href="pharmacy_product.html" class="fmenu__link">Аптека</a></li>
+								</ul>
+							</div>
+							<div class="fmenu__wrap">
+								<ul class="fmenu__list">
+									<li class="fmenu__item"><a href="news.html" class="fmenu__link">Новости</a></li>
+									<li class="fmenu__item"><a href="articles.html" class="fmenu__link">База знаний</a></li>
+									<li class="fmenu__item"><a href="feedback.html" class="fmenu__link">Отзывы</a></li>
+									<li class="fmenu__item"><a href="contacts.html" class="fmenu__link">Контакты</a></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<div class="footer__right">
+						<div class="social-media">
+							<div class="social-media__text">
+								Мы в социальных сетях:
+							</div>
+							<div class="social-media__icons">
+								<div class="social-media__icon"><a href="#" class="social-media__link"><i class="fab fa-vk"></i></a></div>
+								<div class="social-media__icon"><a href="#" class="social-media__link"><i class="fab fa-facebook-f"></i></a></div>
+								<div class="social-media__icon"><a href="#" class="social-media__link"><i class="fab fa-instagram"></i></a></div>
+							</div>
+						</div>
+						<div class="developer">
+							<div class="developer__copyright">&copy; 2017 «Альфа-вет»</div>
+							<a href="#" class="developer__company company">
+								<div class="company__text">Разработка сайта — </div>
+								<div class="company__logo">
+									<img src="img/devlogo.png" alt="logo" class="company__img">
+									<img src="img/devlogoHov.png" alt="logo" class="company__img company__img--hover">
+								</div>
+							</a>
+							<div class="company__info">
+								Информация, представленная на сайте, носит справочный характер и не является публичной офертой.
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	<script src="js/scripts.min.js"></script>
+
+</body>
+</html>
